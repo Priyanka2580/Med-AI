@@ -1,13 +1,7 @@
 # Launches the Cura Streamlit app from the project's own .venv, first killing
 # any previously running "streamlit run app.py" instance for this project.
-#
-# Why .venv specifically: this project's .venv has CPU-only torch +
-# paddlepaddle-gpu installed (LayoutLMv3/BioBERT on CPU, PaddleOCR on GPU --
-# OCR was the ~90s/image bottleneck). The global Python install still has
-# GPU torch + CPU paddle, which is a different, also-valid combo but much
-# slower on OCR -- don't launch via global `streamlit run app.py`, it won't
-# use this venv's packages.
-#
+
+
 # Why kill old instances first: phase3_pipeline.py loads all models at import
 # time, once per process. Closing a terminal/VS Code panel doesn't always
 # kill the underlying python.exe child on Windows, so a leftover instance

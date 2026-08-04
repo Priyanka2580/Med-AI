@@ -26,7 +26,7 @@ GEMINI_MODEL_NAME = "gemini-2.5-flash"
 REQUEST_TIMEOUT_MS = 60_000
 
 # Gemini returns these as transient APIError.code values (429 = rate limited,
-# 503 = "model currently experiencing high demand") -- both are worth a short
+# 503 = "model currently experiencing high demand") - both are worth a short
 # retry instead of immediately failing the whole pipeline run for the image.
 RETRYABLE_STATUS_CODES = {429, 503}
 MAX_RETRIES = 2

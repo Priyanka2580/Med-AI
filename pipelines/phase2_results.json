@@ -1,0 +1,4612 @@
+[
+  {
+    "image": "001img.jpg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.55,
+    "ocr_confidence": 99.0,
+    "ner_avg_confidence": 69.73,
+    "entity_count": 30,
+    "raw_text": "manipalhospitals LIFE'S ON URN:MH008417321 Manipal Hospital Yeshwanthpur Brigade Gateway, #26/4,80 Feet, Dr. Rajkumar Road, Malleshwaram West, Bengaluru-560 055,Karnataka P+91 080 6165 6262|+91 88844 60440 OUTPATIENT RECORD Visit No: O17000036956 MH008417321 Age/Sex: 2 Yrs/Male Hospital No: AYANSH SAHA Specialty: PAEDIATRICS MYB Name: DR. SUPRAJA CHANDRASEKAR Doctor Name: 27/12/2022 01:20PM Temperature: 97.5°F Date: Saturation(Oxygen): 99% BMI: 16.27 Pulse Rate: 94beats per minute Weight: 14.68kg Vulnerable: 01 Height: 95cm Fall Risk: 01 Pain Score: 00 Ideal Body Weight (calculated): 0.00kg OPD Notes : 2.5 years Came for general check Wt 14.8 Kg Ht 95 cm > 50th C Concern about growth by mother explained normal Discussed diet O/E mild pallor Systemic normal Advice Syp Zentel 10ml after dinner one dose and repeat dose after 15 days Syp Tonoferon Paed [80] 2.5ml 1 hr before food for 2 months Flu vaccine given Discussed growth targets DR. SUPRAJA CHANDRASEKAR \"MBBS-2002, MRCPCH(UK)2006, Fellowship in Pediatric Critical Care (IAP)-2009\" 1 of 1 nipal Health Enterprises Pvt. Ltd. U85110KA2010PTC052540 1 80 4936 0300 E info@manipalhospitals.com www.manipalhospitals.com",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "2 yrs",
+        "confidence": 71.59
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "temperature",
+        "confidence": 76.21
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "saturation",
+        "confidence": 51.84
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bmi",
+        "confidence": 84.24
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "16 . 27",
+        "confidence": 72.04
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "pulse rate",
+        "confidence": 81.74
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "weight",
+        "confidence": 54.31
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "14 . 68kg",
+        "confidence": 73.95
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "height",
+        "confidence": 63.91
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "fall",
+        "confidence": 44.05
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "body weight",
+        "confidence": 42.37
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 00kg",
+        "confidence": 73.06
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "wt",
+        "confidence": 59.9
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "14 . 8",
+        "confidence": 48.41
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "ht 95 cm > 50th",
+        "confidence": 71.29
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "syp zentel",
+        "confidence": 91.87
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "10ml",
+        "confidence": 90.59
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after dinner",
+        "confidence": 87.6
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "one dose",
+        "confidence": 41.99
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "and",
+        "confidence": 43.62
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "repeat dose",
+        "confidence": 59.08
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "15 days",
+        "confidence": 94.36
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "syp",
+        "confidence": 62.85
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "tonoferon",
+        "confidence": 97.25
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "paed",
+        "confidence": 77.72
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "2 . 5ml",
+        "confidence": 89.57
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1",
+        "confidence": 59.6
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "before food",
+        "confidence": 94.63
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2 months",
+        "confidence": 93.85
+      },
+      {
+        "entity_type": "DIAGNOSIS",
+        "text": "flu",
+        "confidence": 38.51
+      }
+    ],
+    "summary": "Document Type: Outpatient Record. Hospital Name: Manipal Hospital Yeshwanthpur, Brigade Gateway, #26/4, 80 Feet, Dr. Rajkumar Road, Malleshwaram West, Bengaluru-560 055, Karnataka. Hospital Contact: P+91 080 6165 6262 | +91 88844 60440. Doctor Name: DR. SUPRAJA CHANDRASEKAR. Doctor Qualifications: MBBS-2002, MRCPCH(UK)2006, Fellowship in Pediatric Critical Care (IAP)-2009. Doctor Registration Number: Not specified. Patient Name: AYANSH SAHA. Patient Age/Sex: 2 Yrs/Male. Date: 27/12/2022 01:20PM. Patient Vitals: Temperature: 97.5°F, Saturation(Oxygen): 99%, BMI: 16.27, Pulse Rate: 94beats per minute, Weight: 14.68kg, Height: 95cm, Ideal Body Weight (calculated): 0.00kg, Vulnerable: 01, Fall Risk: 01, Pain Score: 00. Complaints/Diagnosis: General check-up, concern about growth by mother, mild pallor, systemic normal, flu (vaccine given). Medications: 1) Syp Zentel 10ml, syrup, dosage: one dose orally after dinner, repeat dose after 15 days. 2) Syp Tonoferon Paed 2.5ml, syrup, dosage: 2.5ml orally 1 hour before food, for 2 months. Advice/Instructions: Discussed diet, flu vaccine given, discussed growth targets.",
+    "low_quality": false
+  },
+  {
+    "image": "002img.jpg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 97.77,
+    "ocr_confidence": 98.67,
+    "ner_avg_confidence": 0.0,
+    "entity_count": 0,
+    "raw_text": "Safe-I PEOPLE TREE Hospitals 2, Tumkur Road, Goraguntepalya POR HESPITAL INFECTION CONTROL Bengaluru 560 022, India Certified www.peopletreehospitals.com SPEECH& SWALLOWING egrated Head FOR APPOINTMENTS Examination eck Team appointments@peopletreehospitals.com SHeet PEOPLE TREE +919900091881/8049599900 HOSPITALS Sachidananda RCS DOHNS (Lond) Master Praneet Sala IPNOo. 1.FRCS(ORL-HNS)(Edin) Neck Oncosurgery /Rhinology Name Date2 u 2071. Reconstructive Surgery in Head & Neck Oncosurgery 2/2 4/74 University, Canada 6243* PTID Age / Sex Phone No. Prakash Obalappa and Paediatric Airway Bangaloy Address. ep Dachuri ship in Rhinology His Penkaye Steep apnea Type of Consultation: New / Follow Up / Revisit Consultant padhya Voice umaran Presenting Complaints (UK) Head and Neck surgery ashista cialE Craniofacial surgery LANGUAGE ARTICULATION VOICE DEGENERATIVE FLUENCY SWALLOWING /PHONOLOGY Ramachandra Paediatric/ Adult/ Geriatric c ediation Oncology Inadequate Pain/ Memory loss Disfluent Difficulty to Unable to speech and Irritation in Rao Vashista speech swallow produce language skills the throat and Preventive dentistry particular speech yaprasad sounds Unable to Reduced Problem in Repetitions Pain while Substitutes ovascular Reconstruction hearing communicating sustain (syllable/ swallowing speech B Pallegar sensitivity Rt/Lt pitch/ word/ sounds rgery & Skull Base Surgery ear/s loudness phrase) sh Rao Unable to Difficulty in Weakness in Prolongation Omits Unable to rise pitch/ indentifying oro-motor swallow speech loudness familiar faces structures sounds y/Hearing Aids) Drooling- Roughness Blocks Misplaces Deletes Sensation of Present/Absent K.R in voice things speech food getting ind Swallowing) sounds stuck in your throat rated Head Reduced social Fast rate of Disorientation Breathiness Regurgitation Adds speech skills k Services in voice speech sounds Slowness of Drooling: Inattentive/ Strain in Attention Weakness in Hyperactive voluntary Present/ voice deficit Neck Cancer Surgery oro-motor movements Absent structures & Skull Base Surgery Slurred speech Difficulty in Weakness in Weakness Word Drooling: ic Surgery oro-motor learning Present/ finding in voice Absent structures difficulty tive Surgery Soft voice Weight loss Trouble Poor Unclear speech Loss of ziness being voice memory noring Disorders understood Word finding Coughing or Academic Difficulty in Difficulty in Decreased difficulty gagging difficulty language comprehending breath NT while formulation /expressing support Trauma swallowing during Surgery speech earing Aid /Vertigo py es Hospitals @ Raghavendra PEOPLE TREE Hospitals @ Meenakshi PEOPLE TREE Hospitals @ Chris sarahalli, Tumkur Road, 979, 25th main, 50 feet Road, BSK first stage 1. Hennur Junction, Grace Town, Kalyan Nag ore 560 057, India Hanumanthnagar, Bangalore 560 050, India Bangalore 560 043, India 919900511146 P:+91 8026755 800/901/402 P:+91 8045585558",
+    "entities": [],
+    "summary": "Document Type: Outpatient Record / Consultation Sheet. Hospital/clinic name and address/contact details: PEOPLE TREE Hospitals, located at 2, Tumkur Road, Goraguntepalya, Bengaluru 560 022, India. The hospital's website is www.peopletreehospitals.com. For appointments, contact appointments@peopletreehospitals.com or phone +919900091881/8049599900. Other branches include PEOPLE TREE Hospitals @ Raghavendra in sarahalli, Tumkur Road, Bangalore 560 057, India (+919900511146); PEOPLE TREE Hospitals @ Meenakshi at 979, 25th main, 50 feet Road, Hanumanthnagar, Bangalore 560 050, India (P:+91 8026755 800/901/402); and PEOPLE TREE Hospitals @ Chris at 1. Hennur Junction, Grace Town, Kalyan Nag, Bangalore 560 043, India (P:+91 8045585558). Doctor name, qualifications, and registration number: Consultant: Sachidananda RCS DOHNS (Lond) Master Praneet Sala IPNOo. 1.FRCS(ORL-HNS)(Edin), specializing in Neck Oncosurgery / Rhinology, Reconstructive Surgery in Head & Neck Oncosurgery. Other associated specialists mentioned include Prakash Obalappa (Paediatric Airway), ep Dachuri (Rhinology), umaran (Voice), ashista cialE (Craniofacial surgery), Ramachandra Rao Vashista (Paediatric/ Adult/ Geriatric ediation Oncology, Preventive dentistry), yaprasad (Ovascular Reconstruction), B Pallegar (Surgery & Skull Base Surgery), and K.R. Registration number is not explicitly stated. Patient name, age, gender, and date: Patient Name: Prakash Obalappa. Date: 2 u 2071 (unclear due to OCR). PTID: 6243*. Age, Gender, Phone Number, and Address are not clearly specified, though \"Bangaloy Address\" is noted. Type of Consultation: Options for New / Follow Up / Revisit are listed, but none are selected. Complaints, symptoms, or diagnosis mentioned: The document presents a checklist of potential presenting complaints across categories such as LANGUAGE, ARTICULATION, VOICE, DEGENERATIVE, FLUENCY, SWALLOWING / PHONOLOGY. Specific symptoms listed include: Inadequate Pain, Memory loss, Disfluent speech, Irritation in the throat, Difficulty to swallow, Unable to produce particular speech sounds, Unable to hear, Reduced sensitivity Rt/Lt ear/s, Problem in communicating, Repetitions (syllable/word/phrase), Pain while swallowing, Substitutes speech sounds, Unable to rise pitch/loudness, Difficulty in identifying familiar faces, Weakness in oro-motor structures, Prolongation sounds, Omits speech sounds, Drooling (Present/Absent), Roughness in voice, Blocks speech, Misplaces things, Deletes sounds, Sensation of food getting stuck in your throat, Reduced social skills, Fast rate of speech, Disorientation, Breathiness in voice, Regurgitation, Adds speech sounds, Slowness of voluntary oro-motor movements, Inattentive/Attention deficit, Strain in voice, Weakness in oro-motor structures, Hyperactive, Slurred speech, Difficulty in learning, Weakness in voice, Word finding difficulty, Soft voice, Weight loss, Trouble being understood, Poor voice, Unclear speech, Loss of memory, Dizziness, Snoring Disorders, Word finding difficulty, Coughing or gagging, Academic difficulty, Difficulty in language formulation /expressing, Difficulty in comprehending, Decreased breath support during speech, Trauma while swallowing. No specific complaint is explicitly marked as present in the provided text. Medications: None mentioned. Any advice, diet instructions, or follow-up instructions: None explicitly stated.",
+    "low_quality": false
+  },
+  {
+    "image": "003img.jpg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 98.91,
+    "ner_avg_confidence": 90.53,
+    "entity_count": 57,
+    "raw_text": "DHEE DHEE Hospitals HOSPITALS Khatta No 744/784, BOOCHS Layout,Narayana Nagar, Healthler, Happler & Together Doddakallasandra 1st Stage,KanakapuraRoad,Bangalore-560062 PEH-2025-2879 Ph: (M) 9900570033, (L) 080 69899999 Email:info@dheehospitals.com LABORATORY INVESTIGATION REPORT Patient Name : Baby PRANEET SAHA Age/Sex : 7 Year(s)/Male UHID : DHEE.23100085 Order Date :23/12/2025 05:57 Episode : OP Bill No. :OPCA95378 Ref. Doctor : EMERGENCY TEAM Facility : DHEE Hospitals UREA 16.00  (L) mg/dl 16.600-48.500 Method-UV-KINETIC(Urease and glutamate dehydrogenase) CREATININE 0.50  (L) mg/dl 0.700-1.300 Method- Modified Jaffe Kinetic ELECTROLYTE HAEMATOLOGY NAME RESULTS UNITS REFERENCE RANGE COMPLETE BLOOD COUNT(CBC) Sample Type- EDTA Whole Blood HEMOGLOBIN (HB) 10.5  (L) g/dl 11-13.5 Method-Spectrophotometric RED BLOOD CELLS (RBC) COUNT 4.09 ml/ul 3.5-5 Method-Electrical Impedance HEMATOCRIT (PCV) 32.6  (L) 0% 33-39 Method-Calculated MEAN CORPUSCULAR VOLUME (MCV) 79.7 fi 75-87 Method-CALCULATED PARAMETER MEAN CORPUSCULAR HEMOGLOBIN (MCH) 25.6 24-30 pg Method-CALCULATED PARAMETER MEAN CORPUSCULAR HEMOGLOBIN 32.1 g/dl 31-35 CONCENTRATION (MCHC) Method- CALCULATED PARAMETER RED CELL DISTRIBUTION WIDTH (RDW) 12.4 % 12-15 Method-CALCULATED PARAMETER WHITE BLOOD CELLS (WBC) COUNT 13.51 thousand/μL 5-15.5 Method-Electrical Impedance NEUTROPHILS 86 ▲ (H) 25-45 % Method-Absorbance Cytochemistry volume and light microscopy of leishman stained smear LYMPHOCYTES 8(L) % 40-65 Method - Absorbance Cytochemistry volume and light microscopy of leishman stained smear MONOCYTES 04 0% 2-10 Method- Absorbance Cytochemistry volume and light microscopy of leishman stained smear OSINOPHILS 02 0% 1-6 Method-Absorbance Cytochemistry volume and light nicroscopy of leishman stained smear ASOPHILS 00 0% 0-1 ethod - Absorbance Cytochemistry volume and light lcroscopy of leishman stalned smear LATELET COUNT 243 Thou/ul 150-450 Method - Impedance varlation & light microscopy of eishman stained smear MEAN PLATELET VOLUME (MPV) 10.5 fl 6.8-10.9 Method -CALCULATED PARAMETER ABSOLUTE NEUTROPHIL COUNT 11.70 ▲ (H) Thou/ul 2-7 Method-Calculated Page 2 of 4",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "7 year",
+        "confidence": 84.81
+      },
+      {
+        "entity_type": "DATE",
+        "text": "23 / 12 / 2025",
+        "confidence": 94.93
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "urea",
+        "confidence": 97.67
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "16 . 00",
+        "confidence": 98.92
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "l",
+        "confidence": 63.1
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.16
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "16 . 600 - 48 . 500",
+        "confidence": 99.36
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "uv",
+        "confidence": 95.68
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "creatinine",
+        "confidence": 98.04
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 50",
+        "confidence": 98.66
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.05
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 700 - 1 . 300",
+        "confidence": 99.39
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "complete blood count",
+        "confidence": 65.37
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "whole blood hemoglobin ( hb )",
+        "confidence": 94.0
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "10 . 5",
+        "confidence": 98.87
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "g / dl",
+        "confidence": 97.33
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "11 - 13 . 5",
+        "confidence": 99.34
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "red blood cells",
+        "confidence": 94.06
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "4 . 09",
+        "confidence": 93.77
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "ml / ul",
+        "confidence": 98.77
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "3 . 5 - 5",
+        "confidence": 99.31
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "hematocrit",
+        "confidence": 90.77
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "pcv",
+        "confidence": 84.25
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "32",
+        "confidence": 79.14
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0",
+        "confidence": 94.89
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 73.16
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "33 - 39",
+        "confidence": 99.21
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mean corpuscular volume",
+        "confidence": 93.63
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mcv",
+        "confidence": 78.47
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "79 . 7",
+        "confidence": 98.12
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "fi",
+        "confidence": 58.48
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "75 - 87",
+        "confidence": 98.29
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mean corpuscular hemoglobin",
+        "confidence": 83.47
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mch",
+        "confidence": 70.42
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "25 . 6",
+        "confidence": 93.55
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "24 - 30",
+        "confidence": 99.03
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "pg",
+        "confidence": 87.96
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mean",
+        "confidence": 75.61
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "corpuscular hemoglobin",
+        "confidence": 87.37
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "32 . 1",
+        "confidence": 98.68
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "g / dl",
+        "confidence": 98.74
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "31 - 35",
+        "confidence": 99.2
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "red cell distribution width",
+        "confidence": 96.69
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rdw",
+        "confidence": 91.0
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "12 . 4",
+        "confidence": 98.8
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 94.66
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "12 - 15",
+        "confidence": 99.19
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "white blood cells",
+        "confidence": 96.3
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "wbc",
+        "confidence": 88.3
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13 . 51",
+        "confidence": 98.84
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "thousand / μl",
+        "confidence": 98.45
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "5 - 15 . 5",
+        "confidence": 99.25
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "neutrophils",
+        "confidence": 95.51
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "86",
+        "confidence": 97.05
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "25 - 45",
+        "confidence": 98.97
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 22.61
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "8",
+        "confidence": 74.51
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report. Hospital/Lab Name: DHEE Hospitals, Address: Khatta No 744/784, BOOCHS Layout, Narayana Nagar, Doddakallasandra 1st Stage, Kanakapura Road, Bangalore-560062, Contact: Ph: (M) 9900570033, (L) 080 69899999, Email: info@dheehospitals.com. Patient Name: Baby PRANEET SAHA, Age/Sex: 7 Year(s)/Male, UHID: DHEE.23100085, Order Date: 23/12/2025. Referring Doctor: EMERGENCY TEAM. Report Type: Biochemistry, Complete Blood Count (CBC). Test Results: Urea: 16.00 mg/dl (Low, Reference Range: 16.600 - 48.500); Creatinine: 0.50 mg/dl (Low, Reference Range: 0.700 - 1.300); Electrolyte: Results not provided; Hemoglobin (HB): 10.5 g/dl (Low, Reference Range: 11 - 13.5); Red Blood Cells (RBC) Count: 4.09 ml/ul (Normal, Reference Range: 3.5 - 5); Hematocrit (PCV): 32.6 % (Low, Reference Range: 33 - 39); Mean Corpuscular Volume (MCV): 79.7 fl (Normal, Reference Range: 75 - 87); Mean Corpuscular Hemoglobin (MCH): 25.6 pg (Normal, Reference Range: 24 - 30); Mean Corpuscular Hemoglobin Concentration (MCHC): 32.1 g/dl (Normal, Reference Range: 31 - 35); Red Cell Distribution Width (RDW): 12.4 % (Normal, Reference Range: 12 - 15); White Blood Cells (WBC) Count: 13.51 thousand/μL (Normal, Reference Range: 5 - 15.5); Neutrophils: 86 % (High, Reference Range: 25 - 45); Lymphocytes: 8 % (Low, Reference Range: 40 - 65); Monocytes: 4 % (Normal, Reference Range: 2 - 10); Eosinophils: 2 % (Normal, Reference Range: 1 - 6); Basophils: 0 % (Normal, Reference Range: 0 - 1); Platelet Count: 243 Thou/ul (Normal, Reference Range: 150 - 450); Mean Platelet Volume (MPV): 10.5 fl (Normal, Reference Range: 6.8 - 10.9); Absolute Neutrophil Count: 11.70 Thou/ul (High, Reference Range: 2 - 7). No interpretation or remarks provided.",
+    "low_quality": false
+  },
+  {
+    "image": "004img.jpeg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.81,
+    "ocr_confidence": 97.36,
+    "ner_avg_confidence": 71.61,
+    "entity_count": 73,
+    "raw_text": "Manipal Hospitals- E.M Bypass 127, E.M. Bypass, Mukandapur, Kolkata- 700099 GHOSH, MRS. ANJANA ID:014971479 Age:55 Height 147cm Female Gender Weight 89 kg BMI 41.2 Asian Ethnicity Your FEV1/ Predicted: 51% FVL (ex/in) GOLD(2008)/Hardie Value Selection Best Trial 18-04-2026 11:02:18 Interpretation Test Date BTPS (IN/EX) 1.12/1.02 18-04-2026 11:07:01 Predicted ERS (ECCS/EGKS), 1993 * 0.90 Post Time Post Pre Best Best Trial 1 Trial 2 %Pred %Chg Parameter Pred LLN Trial 3 Trial 2 Trial 1 %Pred Trial 3 FVC [L)] 1.09* 1.06* 1.04* 1.02* 56 1.34 1.02* 1.10° 55 1.97 1 FEVI [L] 1.08 0.80* 0.77* 52 0.84* 0.86* 1.65 0.78* 51 0.79* 3 0.758 FEV1/FVC 0.756 0.753 0.786 0.678 0.771 0.760 100 98 2 0.786 FEF25-75 [L/s] 1.49 0.60* 29 17 0.71* 0.59* 0.61* 0.57* 2.89 25 0.83* PEF [L/s] 3.84 4.67 4.49 3.64* 87 5.32 3.76* 4.29 -1 4.63 88 FET [s] 8.0 7.8 7.9 7.9 8.5 8.8 1 FIVC [L] 1.03* 1.34 0.95* 1.97 0.49* 0.93* 0.99* 47 -9 52 1.00* PIF [L/s] 2.73 2.53 1.83 12 3.06 2.94 2.94 Indicates value outside normal range or significant post change Session Quality A (FEV1 Var=0.04L (4.6%); FVC Var=0.03L (2.7%)) Pre A (FEV1 Var=0.07L (8.1%); FVC Var=0.06L (5.0%)) Post System Interpretation Restriction probable; further examination recommended Pre Restriction probable: further examination recommended Post 14 Phe Tral 3 Pre Trial 2 12 Pae Tral 1 Post Tril 3 10 3 Volume [L] 8 2 2 Flow [L/s] 1 2 0 -0.5 0 1 2 3 4 5 7 6 Time [s] -6 -8 -10 -12 -14 2 0 -1 -2 Volume [L]",
+    "entities": [
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "manipal",
+        "confidence": 94.89
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "age",
+        "confidence": 78.83
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "55 height",
+        "confidence": 59.36
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "147cm",
+        "confidence": 60.58
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "female",
+        "confidence": 83.2
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "gender",
+        "confidence": 58.9
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "weight",
+        "confidence": 24.8
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bmi 41 . 2",
+        "confidence": 61.43
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "51",
+        "confidence": 46.06
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 12",
+        "confidence": 88.16
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "ers",
+        "confidence": 56.92
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 90",
+        "confidence": 88.01
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2",
+        "confidence": 69.11
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 25.64
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "chg",
+        "confidence": 60.01
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1",
+        "confidence": 54.58
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 28.17
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fvc",
+        "confidence": 82.6
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 09",
+        "confidence": 95.03
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 06",
+        "confidence": 83.83
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 04",
+        "confidence": 80.91
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 02",
+        "confidence": 81.68
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 34",
+        "confidence": 82.4
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 02",
+        "confidence": 60.53
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 10° 55",
+        "confidence": 61.04
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 97 1",
+        "confidence": 60.36
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fevi",
+        "confidence": 71.11
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 08",
+        "confidence": 93.1
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 80",
+        "confidence": 70.74
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0",
+        "confidence": 30.25
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 65",
+        "confidence": 76.57
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 78",
+        "confidence": 67.96
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 79",
+        "confidence": 68.44
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fev1 / fvc",
+        "confidence": 63.5
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 756",
+        "confidence": 93.97
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 753",
+        "confidence": 82.25
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 786",
+        "confidence": 80.94
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 678",
+        "confidence": 77.28
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 771",
+        "confidence": 75.11
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 760 100 98 2",
+        "confidence": 79.98
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fef25",
+        "confidence": 66.61
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 49",
+        "confidence": 94.82
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 60",
+        "confidence": 86.23
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 71",
+        "confidence": 67.94
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 59",
+        "confidence": 66.02
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 61",
+        "confidence": 66.63
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 57",
+        "confidence": 71.44
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2 . 89 25",
+        "confidence": 82.59
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "pef",
+        "confidence": 68.69
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "3 . 84",
+        "confidence": 94.61
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "4 . 67",
+        "confidence": 84.26
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "4 . 49",
+        "confidence": 73.28
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "3 . 64",
+        "confidence": 66.3
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "5 . 32",
+        "confidence": 85.9
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "3 . 76",
+        "confidence": 64.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 29 - 1 4 . 63 88",
+        "confidence": 88.92
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fet",
+        "confidence": 69.2
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "8 . 0",
+        "confidence": 93.14
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "7 . 8",
+        "confidence": 78.52
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "7 . 9",
+        "confidence": 52.05
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fivc",
+        "confidence": 60.65
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 03",
+        "confidence": 89.82
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 34",
+        "confidence": 83.07
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 95",
+        "confidence": 64.3
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 97",
+        "confidence": 81.03
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 49",
+        "confidence": 60.41
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 93",
+        "confidence": 64.94
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0",
+        "confidence": 55.87
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "pif",
+        "confidence": 59.56
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2 . 73",
+        "confidence": 95.72
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2 . 53",
+        "confidence": 87.72
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 83 12",
+        "confidence": 63.64
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0",
+        "confidence": 80.91
+      }
+    ],
+    "summary": "Document Type: Pulmonary Function Test Report. Hospital/Lab Name: Manipal Hospitals- E.M Bypass 127, E.M. Bypass, Mukandapur, Kolkata- 700099. Doctor/Consultant Name: Not specified. Patient Name: GHOSH, MRS. ANJANA, Patient ID: 014971479, Age: 55, Gender: Female, Height: 147cm, Weight: 89 kg, BMI: 41.2, Ethnicity: Asian. Test Date: 18-04-2026 11:02:18. Interpretation Test Date: 18-04-2026 11:07:01. Report Type: Pulmonary Function Test (Spirometry). Test Results: Your FEV1/ Predicted: 51% (Status: Low, based on system interpretation); FVL (ex/in): 1.12/1.02 (Unit: Not specified, Status: Not determinable); Predicted ERS (ECCS/EGKS), 1993: 0.90 (Unit: Not specified, Status: Not determinable). FVC [L]: Predicted: 1.97 L, LLN: 1.34 L. Pre-bronchodilator Best Trial: 1.02 L (55% Predicted) (Status: Low, value outside normal range). Post-bronchodilator Best Trial: 1.10 L (56% Predicted) (Status: Low, value outside normal range). %Change: 1%. FEV1 [L]: Predicted: 1.65 L, LLN: Not specified. Pre-bronchodilator Best Trial: 0.77 L (52% Predicted) (Status: Low, value outside normal range). Post-bronchodilator Best Trial: 0.79 L (51% Predicted) (Status: Low, value outside normal range). %Change: 3%. FEV1/FVC: Predicted: 0.758, LLN: 0.756. Pre-bronchodilator Best Trial: 0.753 (100% Predicted) (Status: Normal). Post-bronchodilator Best Trial: 0.760 (98% Predicted) (Status: Normal). %Change: 2%. FEF25-75 [L/s]: Predicted: 2.89 L/s, LLN: 1.49 L/s. Pre-bronchodilator Best Trial: 0.57 L/s (25% Predicted) (Status: Low, value outside normal range). Post-bronchodilator Best Trial: 0.60 L/s (29% Predicted) (Status: Low, value outside normal range). %Change: 17%. PEF [L/s]: Predicted: 4.63 L/s, LLN: 3.84 L/s. Pre-bronchodilator Best Trial: 3.64 L/s (88% Predicted) (Status: Low, value outside normal range). Post-bronchodilator Best Trial: 3.76 L/s (87% Predicted) (Status: Low, value outside normal range). %Change: -1%. FET [s]: Predicted: 8.0 s, LLN: Not specified. Pre-bronchodilator Best Trial: 7.9 s (Predicted: Not specified). Post-bronchodilator Best Trial: 7.8 s (Predicted: Not specified). %Change: 1% (Status: Normal). FIVC [L]: Predicted: 1.97 L, LLN: 1.34 L. Pre-bronchodilator Best Trial: 0.93 L (47% Predicted) (Status: Low, value outside normal range). Post-bronchodilator Best Trial: 0.99 L (52% Predicted) (Status: Low, value outside normal range). %Change: -9%. PIF [L/s]: Predicted: 3.06 L/s, LLN: 2.73 L/s. Pre-bronchodilator Best Trial: 1.83 L/s (12% Predicted) (Status: Low, value outside normal range). Post-bronchodilator Best Trial: 2.53 L/s (Predicted: Not specified) (Status: Low, value below LLN). %Change: Not specified. Remarks: An asterisk (*) indicates value outside normal range or significant post change. Session Quality A (FEV1 Var=0.04L (4.6%); FVC Var=0.03L (2.7%)). Pre Session Quality A (FEV1 Var=0.07L (8.1%); FVC Var=0.06L (5.0%)). System Interpretation: Pre: Restriction probable; further examination recommended. Post: Restriction probable: further examination recommended.",
+    "low_quality": false
+  },
+  {
+    "image": "005img.jpeg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.87,
+    "ocr_confidence": 98.66,
+    "ner_avg_confidence": 83.62,
+    "entity_count": 91,
+    "raw_text": "llpalhospitals URN:MH014971479 LIFE'S ON Visit No: O32000447598 Tospital No: MH014971479 DR. ABHISHEK KUMAR Doctor Name: Name MRS ANJANA GHOSH APRIL 2Creatinine-2.56 mg/dl eGFR-22 ML/MIN/1.73M2 URINE ACR-2621 MCG/MG K+5.5 MEQ/L INR-3.18 UA- 4.2 MG/DL HB - 8.3 GM/DL FBS-97 MG/DL PP 159 MG/DL Advice: FLUID-1.5 L/DAY PROTEIN RESTRICTED DIET- 0.8 GM/KG/DAY CALORIE - 35 KCAL/KG/DAY AVOID SPINACH POTATOES SAJNE DATA MOCHA THOR Avoid NSAID/PPI on regular basis. Consult dietitian for Low POTASSIUM DIET. Medications: ITHYRONORM 50 MCG 1 TAB ONCE DAILY EMPTY STOMACH. 2. K BIND SACHET 1 SACHET TWICE DAILY X 3 DAYS. MIX WITH WATER OR 15 ML LACTULOSE. RECHECK POTASSIUM AFTER 3 DAYS. DYTOR 10 MG 1 TAB ONCE DAILY 8 AM. 3. TELMA 20 MG 1 TAB ONCE DAILY BEDTIME. 4. OXRA 10 MG I TAB ONCE DAILY AFTER BREAKFAST. 5. PROLOMET XL 25 MG I TAB ONCE DAILY 8 AM. 6. NODOSIS 500 MG 1 TAB TWICE DAILY 8 AM 2PM 8 PM. 7. FEBUTAZ 20 MG 1 TAB ONCE DAILY 8 PM. 8. ECOSPRIN AY 75/20 MG 1 TAB ONCE DAILY AT BEDTIME. 9. DUPHALAC 20 ML AT BEDTIME. 10. PRUVICT 1 MG 1 TAB ONCE DAILY BEDTIME. 11. SEDEROM/GEROZ LP I TAB TWICE DAILY PRE MEAL. 12. OXEMIA 50 MG 2 TABLETS 3 DAYS IN A WEEK 13. FREQUENCY OF TABLETS AS PER CURRENT HB LEVEL HB % TESTING EVERY 2 WEEKS IIB - LESS THAN TARGET HB OF 11.5 GM/DL- TAKE 2 TABLETS 3/WEEK HB MORE THAN TARGET HB -11.5 GM/DL HOLD OXEMIA FOR 2 WEEKS AND NEXT DECISION AS NEXT HB REPORT. 14. TENDOCARE FORTE I TAB ONCE DAILY AFTER LUNCH. CARTIGEN FORTE I TAB ONCE DAILY AFTER DINNER. 15. PREGABID D 75/20 MG | TAB ONCE DAILY BEDTIME. 16. Follow up Advice: Review with the following AFTER 3 months CBC urea creatinine sodium POTASSIUM URIC ACID. Manipal Hospital E.M. Bypass 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal P+ 91 33 6652 0000 Manipal Hospitals Eastern India Private Limited (Formerly known as Medica Hospitals Private Limited) CIN:U45200WB2007PTC112554",
+    "entities": [
+      {
+        "entity_type": "PATIENT_NAME",
+        "text": "abhishek kumar",
+        "confidence": 67.0
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "april",
+        "confidence": 97.08
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "2creatinine",
+        "confidence": 47.54
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2 . 56",
+        "confidence": 92.12
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 93.86
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "22",
+        "confidence": 38.19
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "ml / min / 1",
+        "confidence": 73.51
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "urine",
+        "confidence": 37.87
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "acr",
+        "confidence": 50.17
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2621",
+        "confidence": 64.21
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mcg / mg",
+        "confidence": 93.6
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "5 . 5",
+        "confidence": 87.78
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "meq / l",
+        "confidence": 95.64
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "3 . 18",
+        "confidence": 90.73
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "ua",
+        "confidence": 74.54
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "4 . 2",
+        "confidence": 77.69
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 95.36
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "8 . 3",
+        "confidence": 89.52
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "gm / dl",
+        "confidence": 94.29
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "97",
+        "confidence": 41.23
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 92.43
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "159",
+        "confidence": 25.35
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 88.28
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 5",
+        "confidence": 54.61
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "l /",
+        "confidence": 57.36
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "0 .",
+        "confidence": 59.79
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "calorie",
+        "confidence": 67.13
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "35 kcal",
+        "confidence": 68.17
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "spinach",
+        "confidence": 44.03
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "sajne",
+        "confidence": 76.6
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "ithyronorm",
+        "confidence": 98.97
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "50 mcg",
+        "confidence": 98.81
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.9
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.24
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "empty stomach",
+        "confidence": 80.21
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "2 . k bind",
+        "confidence": 68.99
+      },
+      {
+        "entity_type": "DRUG_FORM",
+        "text": "sachet",
+        "confidence": 73.76
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 sachet",
+        "confidence": 98.44
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "twice daily",
+        "confidence": 98.75
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "3 days",
+        "confidence": 96.05
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "15 ml",
+        "confidence": 88.06
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "lactulose",
+        "confidence": 76.54
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "3 days",
+        "confidence": 93.0
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "dytor",
+        "confidence": 99.06
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "10 mg",
+        "confidence": 98.84
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.7
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.43
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "telma",
+        "confidence": 98.25
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "20 mg",
+        "confidence": 98.55
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.38
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 97.74
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "oxra",
+        "confidence": 98.36
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "10 mg",
+        "confidence": 98.66
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "i tab",
+        "confidence": 59.36
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 97.84
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after breakfast",
+        "confidence": 91.08
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "prolomet xl",
+        "confidence": 98.73
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "25 mg",
+        "confidence": 98.7
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "i tab",
+        "confidence": 60.02
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.2
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "nodosis",
+        "confidence": 95.79
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "500 mg",
+        "confidence": 98.77
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.55
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "twice daily 8 am",
+        "confidence": 64.76
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2pm",
+        "confidence": 27.62
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "febutaz",
+        "confidence": 98.9
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "20 mg",
+        "confidence": 98.92
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.54
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.34
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "ecosprin ay",
+        "confidence": 98.65
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "75 /",
+        "confidence": 97.88
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "20 mg",
+        "confidence": 88.2
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.69
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.61
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "at bedtime",
+        "confidence": 72.27
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "duphalac",
+        "confidence": 98.52
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "20 ml",
+        "confidence": 95.62
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "at bedtime",
+        "confidence": 54.33
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "pruvict",
+        "confidence": 97.75
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "1 mg",
+        "confidence": 96.43
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 97.69
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 97.87
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "sederom",
+        "confidence": 98.52
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "twice daily",
+        "confidence": 98.11
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "oxemia",
+        "confidence": 98.85
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "50 mg",
+        "confidence": 98.89
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "2 tablets",
+        "confidence": 95.71
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "3 days",
+        "confidence": 86.05
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "every 2",
+        "confidence": 42.47
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "gm / dl",
+        "confidence": 82.34
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "2 tablets",
+        "confidence": 48.3
+      }
+    ],
+    "summary": "Document Type: Outpatient Record. Hospital/Clinic Name: Manipal Hospitals Eastern India Private Limited (formerly known as Medica Hospitals Private Limited), E.M. Bypass, 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal. Contact: P+ 91 33 6652 0000. CIN: U45200WB2007PTC112554. Doctor Name: DR. ABHISHEK KUMAR. Patient Name: MRS ANJANA GHOSH. Patient URN: MH014971479. Hospital No: MH014971479. Visit No: O32000447598. Date: APRIL 2 (incomplete). Lab Results: Creatinine: 2.56 mg/dl, eGFR: 22 ML/MIN/1.73M2, URINE ACR: 2621 MCG/MG, K+: 5.5 MEQ/L, INR: 3.18, UA (Uric Acid): 4.2 MG/DL, HB: 8.3 GM/DL, FBS: 97 MG/DL, PP: 159 MG/DL. Advice: FLUID-1.5 L/DAY, PROTEIN RESTRICTED DIET- 0.8 GM/KG/DAY, CALORIE - 35 KCAL/KG/DAY. Avoid Spinach, Potatoes, Sajne, Data Mocha, Thor. Avoid NSAID/PPI on regular basis. Consult dietitian for Low POTASSIUM DIET. Medications: 1) ITHYRONORM 50 MCG tablet, 1 tablet once daily, empty stomach. 2) K BIND SACHET, 1 sachet twice daily for 3 days, mix with water or 15 ML Lactulose; recheck potassium after 3 days. 3) DYTOR 10 MG tablet, 1 tablet once daily at 8 AM. 4) TELMA 20 MG tablet, 1 tablet once daily at bedtime. 5) OXRA 10 MG tablet, 1 tablet once daily after breakfast. 6) PROLOMET XL 25 MG tablet, 1 tablet once daily at 8 AM. 7) NODOSIS 500 MG tablet, 1 tablet twice daily at 8 AM and 2 PM (also 8 PM mentioned, but frequency is twice daily, potentially a typo or discretion required). 8) FEBUTAZ 20 MG tablet, 1 tablet once daily at 8 PM. 9) ECOSPRIN AY 75/20 MG tablet, 1 tablet once daily at bedtime. 10) DUPHALAC, 20 ML once daily at bedtime. 11) PRUVICT 1 MG tablet, 1 tablet once daily at bedtime. 12) SEDEROM/GEROZ LP tablet, 1 tablet twice daily pre-meal. 13) OXEMIA 50 MG tablets, 2 tablets 3 days in a week. Frequency of tablets as per current HB level: HB % testing every 2 weeks. If HB < 11.5 GM/DL, take 2 tablets 3/week. If HB > 11.5 GM/DL, hold Oxemia for 2 weeks and next decision as per next HB report. 14a) TENDOCARE FORTE tablet, 1 tablet once daily after lunch. 14b) CARTIGEN FORTE tablet, 1 tablet once daily after dinner. 15) PREGABID D 75/20 MG tablet, 1 tablet once daily at bedtime. Follow up Advice: Review with CBC, Urea, Creatinine, Sodium, POTASSIUM, URIC ACID after 3 months.",
+    "low_quality": false
+  },
+  {
+    "image": "006img.png",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "007img.jpg",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.89,
+    "low_quality": false
+  },
+  {
+    "image": "008img.jpeg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.88,
+    "ocr_confidence": 97.9,
+    "ner_avg_confidence": 66.25,
+    "entity_count": 20,
+    "raw_text": "BARUN HALDER VIS Male | Senior Citizen (70 years, 10 months) No Address. Phone:9836142307 Reason for Visit: Glaucoma SUMMARY Rx Generated At: 13 Jan 2026, 11:35 am P0500243048 BASELINE EVALUATION Right Eye Left Eye Left Eye Right Eye Intraocular Pressure Visual Acuity Distance Pinhole Near Distance Pinhole Near 17 mm Hg Non-contact Tonometry 18 mm Hg 6/6 6/6 Present Glass 6/6P 6/6P Applanation Tonometry 13 mm Hg 15 mm Hg Final Acceptance (fromsbees) Verify Existing Glasses Spectacle Prescription: EXAMINATION Left Eye Right Eye Lens PCIOL PCIOL,S/P YAG Capsulotomy Disc Cup-to-Disc Ratio - 0.4 Cup-to-Disc Ratio-0.9 Retina FR-Dull PVD,FR-Dull INVESTIGATIONS AND PROCEDURES BE-DFP BE - Visual Field Analysis RE - Visual Field Analysis (10-2) DONE RESIDUAL CENTRAL ISLAND OF DENSE BIARCUATE SCOTOMA, [LE] VISION -INFERIOR NASAL DEPRESSION, [BE] - STABLE PLAN MEDICINES NEXT STEPS 1. CAREPROST LS BKC FREE EYE DROP 1. sos b0m~/616mr (Bimatoprost (0.10mg/ml)) Contact immediately in case of any eye problems. BE - 1 DROP X 1 TIME DAILY -- CONTINUE / 9 PM 2. REVIEW (FOR AT (BE)) 2. BRINZOX OPHTHALMIC SUSPENSION In 6 months. cmonw/00/6mr (Brinzolamide (1% w/v)) 3.IMAGING/LABS RE - 1 DROP X 2 TIMES DAILY -- CONTINUE / 8 AM 8 PM VFA both eyes. (NEXT VISIT) 3. REFRESH TEARS EYE DROP (Carboxymethylcellulose (0.5% w/v)) Dake 6000 Thrice daily for to continue till next consultation -- in both eyes k10nn/000/6m0 Dr. Shyamashree Sil MBBS, DNB Registration: WBMC 56648 Disha Eye Hospital, Sinthi DISHA EYE Address: Hospital: 033 6636 HOSPITAL, 277/4, B.T. Road, 0005 SINTHI Sinthi, Eye Bank: Open Vialon Tegather\" Kolkata-700036 +919830323021/14 DISHA EVE HOSPITALS Please collect your Glass Prescription from the Insurance: Spectacle Counter. 017000044020",
+    "entities": [
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "barun halder vis",
+        "confidence": 83.77
+      },
+      {
+        "entity_type": "DIAGNOSIS",
+        "text": "right eye left eye left eye right eye",
+        "confidence": 47.65
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "intraocular",
+        "confidence": 39.98
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "visual acuity",
+        "confidence": 66.95
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "distance",
+        "confidence": 26.96
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "pinhole near",
+        "confidence": 43.27
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "pinhole",
+        "confidence": 59.06
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "tonometry",
+        "confidence": 48.47
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "18",
+        "confidence": 41.25
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "tonometry",
+        "confidence": 43.68
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13",
+        "confidence": 51.96
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "pciol pciol",
+        "confidence": 85.03
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "careprost",
+        "confidence": 83.97
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "1 time daily",
+        "confidence": 85.34
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "brinzox",
+        "confidence": 95.33
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "2 times daily",
+        "confidence": 90.07
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "dake",
+        "confidence": 94.41
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "6000",
+        "confidence": 74.36
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "thrice daily",
+        "confidence": 82.99
+      },
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "shyamashree",
+        "confidence": 80.59
+      }
+    ],
+    "summary": "Document Type: Prescription/Outpatient Record. Hospital/Clinic: Disha Eye Hospital, Sinthi, 277/4, B.T. Road, Sinthi, Kolkata-700036. Hospital Contact: 033 6636 0005. Eye Bank Contact: +919830323021/14. Insurance Contact: 017000044020. Doctor: Dr. Shyamashree Sil, MBBS, DNB, Registration: WBMC 56648. Patient Name: BARUN HALDER, Age: 70 years, 10 months (Senior Citizen), Gender: Male. Date: 13 Jan 2026, 11:35 am. Reason for Visit: Glaucoma. Diagnosis/Findings: Right Eye Intraocular Pressure (Applanation Tonometry) 13 mm Hg, Visual Acuity Distance 6/6, Pinhole 6/6P, Near Present Glass 6/6. Left Eye Intraocular Pressure (Applanation Tonometry) 15 mm Hg, Visual Acuity Distance 6/6, Pinhole 6/6P, Near Present Glass 6/6. Baseline Evaluation (Non-contact Tonometry) Right Eye 17 mm Hg, Left Eye 18 mm Hg. Examination: Right Eye Lens PCIOL, Disc Cup-to-Disc Ratio - 0.4, Retina FR-Dull PVD. Left Eye Lens PCIOL, S/P YAG Capsulotomy, Disc Cup-to-Disc Ratio - 0.9, Retina FR-Dull. Investigations and Procedures: BE-DFP, BE - Visual Field Analysis, RE - Visual Field Analysis (10-2) DONE, findings include RESIDUAL CENTRAL ISLAND OF DENSE BIARCUATE SCOTOMA, [LE] VISION - INFERIOR NASAL DEPRESSION, [BE] - STABLE. Medications: 1) CAREPROST LS BKC FREE EYE DROP (Bimatoprost 0.10mg/ml) one drop in both eyes (BE) one time daily, to continue, at 9 PM. 2) BRINZOX OPHTHALMIC SUSPENSION (Brinzolamide 1% w/v) one drop in right eye (RE) two times daily, to continue, at 8 AM and 8 PM. 3) REFRESH TEARS EYE DROP (Carboxymethylcellulose 0.5% w/v) in both eyes thrice daily, to continue till next consultation. Next Steps/Advice: Contact immediately in case of any eye problems. Review in 6 months. Imaging/Labs VFA both eyes to be done at next visit. Please collect glass prescription from the Spectacle Counter.",
+    "low_quality": false
+  },
+  {
+    "image": "009img.jpg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.9,
+    "ocr_confidence": 98.28,
+    "ner_avg_confidence": 82.19,
+    "entity_count": 35,
+    "raw_text": "KOLKATA BM Birla Heart Research Centre 1 of 2 Dr. Sabyasachi Paul Hospital :BM Birla Heart Research Centre Consultant, CARDIOLOGY Address :(A Unit Or Calcutta Medical Research Institute),1/1,National MBBS-2001,MD (General Medicine)-2007, DM Library Avenue, Kolkata, West Bengal, India (Card)-2013,Coordinator-9674794601 Phone:+91 8062136585 Medical Registration No: 57569 (WBMC) Emall : helodesk.bmb@ckbirlahosnitals.com Patient : Mr. ARUP DAS, 56 Yrs, Male Address: DIPA, LIKABALI, West Siang, Arunachal UHID: B000806705 | Mobile: 9101768217 Pradesh, India Consult Date / Time : Wed, 23 Apr 2025 | 10:00 AM Weight Heart Rate BP SPO2 80 kg 170/90 mmHg 68 bpm 99 % CHIEF COMPLAINTS & HPI NIL DIAGNOSIS Uncontrolled Hypertension Initially Had Hypokalemia Severe OSA EXISTING INVESTIGATION 19/4/25- Cr-1.0, K-4.99, Na-143 MEDICINES PRESCRIBED DURATION S.NO. INSTRUCTIONS NAME SCHEDULE DOSAGE ROUTE FREQUENCY Till review ORAL As directed NICARDIA XL 30MG TABLET 1 Twice daily Morning- 1 ROUTE 1X10 J B CHEMI Evening (NIFEDIPINE-30MG TABLET) Remarks 8am, 8pm Till review Once a day As directed ORAL Afternoon NEBICARD 2.5MG TABLET 1 2 ROUTE 1X15 TORRENT (NEBIVOLOL-2.5MG TABLET) Remarks 2PM Till review As directed Once a day Afternoon ORAL ALDACTONE 25MG TABLET 1 3 ROUTE 1X15 RPG (SPIRONOLACTONE-25MG TABLET) Remarks 2PM Till review Once a day ORAL Morning TAZLOC 40MG TABLET As directed 1 ROUTE 1X10 USV (TELMISARTAN- 40MG TABLET) Remarks 10am MINIPRESS XL 5MG 5 Night As directed ORAL Once a day Till review 1 TABLET 1X30 PFIZER ROUTE (PRAZOSIN-5MG TABLET) Remarks AT BEDTIME WL/ZL 1 National Library Avenue, Kolkata 700027, India +91 33 4088 4088 ailus.bmb@ckbirlahospitals.comwww.bmb.ckbirlahospitals.com BilBinta neurt hes Naona Library Avenue, Alpore, Kolkaa-700027WesBenga",
+    "entities": [
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "kolkata",
+        "confidence": 81.46
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "56 yrs ,",
+        "confidence": 86.67
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "weight",
+        "confidence": 77.72
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "heart rate",
+        "confidence": 95.97
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bp",
+        "confidence": 94.06
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "spo2 80 kg 170 / 90 mmhg 68 bpm 99 %",
+        "confidence": 99.06
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "nicardia xl",
+        "confidence": 98.45
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "30mg",
+        "confidence": 98.54
+      },
+      {
+        "entity_type": "DRUG_FORM",
+        "text": "tablet",
+        "confidence": 97.1
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1",
+        "confidence": 90.5
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "chemi",
+        "confidence": 89.22
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "8am",
+        "confidence": 68.71
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "8pm",
+        "confidence": 65.55
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once a day",
+        "confidence": 67.26
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "nebicard",
+        "confidence": 99.1
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "2 . 5mg",
+        "confidence": 98.39
+      },
+      {
+        "entity_type": "DRUG_FORM",
+        "text": "tablet",
+        "confidence": 96.55
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1x15",
+        "confidence": 60.84
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "torrent",
+        "confidence": 63.67
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2pm",
+        "confidence": 80.81
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once a day",
+        "confidence": 50.06
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "aldactone",
+        "confidence": 98.93
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "25mg",
+        "confidence": 98.7
+      },
+      {
+        "entity_type": "DRUG_FORM",
+        "text": "tablet",
+        "confidence": 96.66
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1x15",
+        "confidence": 54.84
+      },
+      {
+        "entity_type": "DRUG_FORM",
+        "text": "rpg",
+        "confidence": 31.24
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2pm",
+        "confidence": 82.85
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once a day",
+        "confidence": 65.47
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "tazloc",
+        "confidence": 98.99
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "40mg",
+        "confidence": 98.64
+      },
+      {
+        "entity_type": "DRUG_FORM",
+        "text": "tablet",
+        "confidence": 95.94
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "10am",
+        "confidence": 45.3
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "minipress",
+        "confidence": 85.39
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "5mg",
+        "confidence": 90.07
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once a day",
+        "confidence": 73.9
+      }
+    ],
+    "summary": "Document Type: Prescription/Outpatient Record. Hospital/Clinic Name: BM Birla Heart Research Centre, Address: 1/1, National Library Avenue, Kolkata, West Bengal, India, also listed as National Library Avenue, Alipore, Kolkata-700027, West Bengal. Phone: +91 8062136585, Email: helpdesk.bmb@ckbirlahospitals.com, Website: www.bmb.ckbirlahospitals.com. Doctor Name: Dr. Sabyasachi Paul, Qualifications: MBBS-2001, MD (General Medicine)-2007, DM (Card)-2013, Coordinator-9674794601, Medical Registration No: 57569 (WBMC). Patient Name: Mr. ARUP DAS, Age: 56 Yrs, Gender: Male, UHID: B000806705, Mobile: 9101768217, Consult Date/Time: Wed, 23 Apr 2025 | 10:00 AM. Vitals: Weight: 80 kg, Heart Rate: 68 bpm, BP: 170/90 mmHg, SPO2: 99 %. Chief Complaints & HPI: NIL. Diagnosis: Uncontrolled Hypertension, Initially Had Hypokalemia, Severe OSA. Existing Investigation: 19/4/25 - Cr-1.0, K-4.99, Na-143. Medications: 1) NICARDIA XL 30MG TABLET (NIFEDIPINE-30MG TABLET): Form: Tablet, Dosage: 1 tablet, Frequency: Twice daily, Route: ORAL, Duration: Till review, Instructions: Morning-1, Evening, 8am, 8pm. 2) NEBICARD 2.5MG TABLET (NEBIVOLOL-2.5MG TABLET): Form: Tablet, Dosage: 1 tablet, Frequency: Once a day, Route: ORAL, Duration: Till review, Instructions: Afternoon, 2PM. 3) ALDACTONE 25MG TABLET (SPIRONOLACTONE-25MG TABLET): Form: Tablet, Dosage: 1 tablet, Frequency: Once a day, Route: ORAL, Duration: Till review, Instructions: Afternoon, 2PM. 4) TAZLOC 40MG TABLET (TELMISARTAN-40MG TABLET): Form: Tablet, Dosage: 1 tablet, Frequency: Once a day, Route: ORAL, Duration: Till review, Instructions: Morning, 10am. 5) MINIPRESS XL 5MG TABLET (PRAZOSIN-5MG TABLET): Form: Tablet, Dosage: 1 tablet, Frequency: Once a day, Route: ORAL, Duration: Till review, Instructions: Night, AT BEDTIME. Advice, Diet Instructions, Follow-up Instructions: Follow-up is indicated as \"Till review\" for all medications. No other specific advice or diet instructions are mentioned.",
+    "low_quality": false
+  },
+  {
+    "image": "010img.jpg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 97.86,
+    "ner_avg_confidence": 87.51,
+    "entity_count": 34,
+    "raw_text": "Apollo Clinic Expertise. Closer to you. MR- 54Y/Male BIRATI Age / Gender Patient Name Mi. ARUP DAS FBIROPV52624 OP Visit No UHID/MR No. MC·5382 FBIR 0000024281 03-11-2024 14:02 Reported on 03-11-20240848 Visit Date Serum Specimen Sample Collected on 03-11-2024 09:56 Sample No SR02208188 Pres Doctor Ref Doctor Di DEBABRATA JOARDAR DEPARTMENT OF LABORATORY MEDICINE UNITS BIOLOGICAL REFERENCE INTERVALS RESULT TEST NAME URIC ACID mg/dl 35-72 URIC ACID 5.9 Method Uricase UREA mg/dl CHILD 374 UREA 1-3 Years: 11-36 Method Urease 4-13 Years: 15-36 14-19 Years: 18-45 ADULT MALE <50 years: 19-45 > 50 years: 18-55 ADULT FEMALE < 50 Years: 13-40 > 50 Years: 21-43 CREATININE mg/dl ADULT 0.83 CREATININE MALE: 0.7-1.3 Method: Enzymatic Female: 0.6-1.1 (0-2) Months Newborn: 0.3-1.0 (1-10) Years Child: 0.3-0.7 2 Months- 1 Years Infant: 0.2-0.4 (10-19) Years Adolescent: 0.5-1.0 End of the report Results are to be correlated clinically DR. RINKITA DEB GANGULY Lab Technician /Technologist MEDICAL M.Sc. Ph.D RIMPA_PAUL CONSULTANT BIOCHEMIST TO BOOK AN APPOINTMENT 2999 394 0990 Licensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LP) 2999 GST:19AAZFR2086G1ZH 395 0990 Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051 Pag Online appointments:www.apollocliniccom Email:birati@apolloclinic.com",
+    "entities": [
+      {
+        "entity_type": "PATIENT_NAME",
+        "text": "birati",
+        "confidence": 71.32
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "uric acid",
+        "confidence": 97.23
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 86.4
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "35 - 72",
+        "confidence": 98.76
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "uric acid",
+        "confidence": 96.55
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "5",
+        "confidence": 66.32
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "uricase urea",
+        "confidence": 97.16
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 82.43
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "374",
+        "confidence": 70.94
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "urea",
+        "confidence": 68.87
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 - 3 years",
+        "confidence": 96.8
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "11 - 36",
+        "confidence": 98.5
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "urease",
+        "confidence": 94.15
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 - 13 years",
+        "confidence": 95.3
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "15 - 36",
+        "confidence": 98.71
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "14 - 19 years",
+        "confidence": 95.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "18 - 45",
+        "confidence": 98.54
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "19 - 45",
+        "confidence": 98.57
+      },
+      {
+        "entity_type": "TEST_STATUS",
+        "text": ">",
+        "confidence": 29.54
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "18 - 55",
+        "confidence": 98.65
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "13 - 40",
+        "confidence": 98.54
+      },
+      {
+        "entity_type": "TEST_STATUS",
+        "text": ">",
+        "confidence": 25.04
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "21 - 43",
+        "confidence": 98.92
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "creatinine",
+        "confidence": 92.49
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 84.82
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 83",
+        "confidence": 91.39
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "creatinine",
+        "confidence": 80.64
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 7 - 1 . 3",
+        "confidence": 99.21
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 6 - 1 . 1 ( 0 - 2 ) months",
+        "confidence": 95.47
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 3 - 1 . 0 ( 1 - 10 ) years",
+        "confidence": 95.09
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 3 - 0 . 7 2 months - 1 years",
+        "confidence": 96.94
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 2 - 0 . 4 (",
+        "confidence": 97.02
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "10 - 19 ) years",
+        "confidence": 80.26
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 5 - 1 . 0",
+        "confidence": 98.9
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report. Hospital/Lab Name: Apollo Clinic, 25, M.B. ROAD, BIRATI, KOLKATA - 700051, Phone: 2999 394 0990, 2999 395 0990, Email: birati@apolloclinic.com, Online appointments: www.apolloclinic.com, Licensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LP). Referring Doctor: Dr. DEBABRATA JOARDAR. Lab Technician/Technologist: DR. RINKITA DEB GANGULY. Consultant Biochemist: RIMPA_PAUL. Patient Name: Mi. ARUP DAS FBIROPV52624, Age: 54Y, Gender: Male, UHID/MR No: MC·5382 FBIR 0000024281. Visit Date: 03-11-2024. Sample Collected on: 03-11-2024 09:56. Reported on: 03-11-2024 08:48. Specimen: Serum. Sample No: SR02208188. Report Type: Biochemistry. Test Results: URIC ACID: 5.9 mg/dl (Normal, Reference Range: 3.5-7.2 mg/dl, Method: Uricase). UREA: 37.4 mg/dl (Normal, Reference Range: CHILD 1-3 Years: 11-36 mg/dl, 4-13 Years: 15-36 mg/dl, 14-19 Years: 18-45 mg/dl, ADULT MALE <50 years: 19-45 mg/dl, ADULT MALE > 50 years: 18-55 mg/dl, ADULT FEMALE < 50 Years: 13-40 mg/dl, ADULT FEMALE > 50 Years: 21-43 mg/dl, with patient's age/gender (54Y/Male) applicable range being ADULT MALE > 50 years: 18-55 mg/dl, Method: Urease). CREATININE: 0.83 mg/dl (Normal, Reference Range: ADULT MALE: 0.7-1.3 mg/dl, Female: 0.6-1.1 mg/dl, Newborn (0-2) Months: 0.3-1.0 mg/dl, Child (1-10) Years: 0.3-0.7 mg/dl, Infant 2 Months-1 Years: 0.2-0.4 mg/dl, Adolescent (10-19) Years: 0.5-1.0 mg/dl, with patient's age/gender (54Y/Male) applicable range being ADULT MALE: 0.7-1.3 mg/dl, Method: Enzymatic). Remarks: Results are to be correlated clinically.",
+    "low_quality": false
+  },
+  {
+    "image": "011img.png",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 98.6,
+    "ner_avg_confidence": 78.09,
+    "entity_count": 9,
+    "raw_text": "MEERA X-Ray & Diagnostic Centre Complete Diagnostic Solution : MALE SEX RAHUL SHARMA PT.NAME DATE :13.02.2015 RFD. BY DR. ARVIND KUMAR TEST : U.S.G. OF WHOLE ABDOMEN STUDY Liver : Liver is normal in size (129.99 mm), having normal shape, regular smooth outline and of homogenous echotexture. No focal parenchymal lesion is evident. Intrahepatic biliary radicles are not dilated. Branches of Portal vein are normal. : The appearance of porta is normal. Common Bile Duct is dilated 9.11 mm. Porta with no intraluminal pathology (calculi/mass) could be detected at its visualised part. Portal vein is normal (13.68mm.) at porta. : Gall Bladder is physiologically distended; wall thickness appears normal. No Gall Bladder intraluminal pathology (calculi/mass) could be detected. Sonographic Murphy's sign is negative. : Echogenecity appears within limits, without any focal lesion. Shape, size and Pancreas position appears normal. No calcular disease noted. Pancreatic duct is not dilated. No peri-pancreatic collection of fluid noted. : Spleen is normal in size (101.30 mm). Homogenous and smooth Spleen echotexture without any focal lesion. Spleenic vein at hilum appears normal. No definite collaterals could be detected. : Both the Kidneys are normal in shape, size, axes and position. Cortical Kidneys echogenecity appears normal maintaining cortico-medullary and cortico-heptic differentiation. Margin is regular and cortical thickness is uniform. No calcular disease noted. No hydronephrotic changes detected. Visualised part of Upper Ureters are not dilated. Right kidney measures = 109.87 mm. in length Left kidney measures = 101.77 mm. in length : Urinary bladder is distended, wall thickness appeared normal. No Urinary Bladder intraluminal pathology (calculi/mass) could be detected. Cont...... Dr. Arnab Roy Dr. N. Jha Dr. Anirban Sarkar Dr. Asish Mondal Dr. Santanu Sen Dr. Subrata Roy Dr. A. Majumdar MD, DM (PDT) MD (CAL) MBBS, MD MBBS, DA, MD MBBS, DMRD (Cal) MBBS, DMRD, Dip CARD utaRadlCoulan Sonologis onsulan CalsCoul Ches Phycia MBBS DMRD Gold Medalist nsultant Radiologist Consultant Radiologist KOLKATA - 700 050. GOVT. REG. NO. - L54632",
+    "entities": [
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "rahul sharma",
+        "confidence": 80.21
+      },
+      {
+        "entity_type": "PATIENT_NAME",
+        "text": "arvind kumar",
+        "confidence": 95.1
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "129 . 99",
+        "confidence": 78.21
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "9 . 11",
+        "confidence": 74.18
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13 . 68mm",
+        "confidence": 75.05
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "109 . 87",
+        "confidence": 90.27
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 57.32
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "101 . 77",
+        "confidence": 87.68
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 64.83
+      }
+    ],
+    "summary": "Document Type: Ultrasound Report, Hospital/lab name: MEERA X-Ray & Diagnostic Centre, Hospital/lab address/contact details: KOLKATA - 700 050, GOVT. REG. NO. - L54632, Referring Doctor Name: Dr. Arvind Kumar, Reporting Doctors: Dr. Arnab Roy, Dr. N. Jha, Dr. Anirban Sarkar, Dr. Asish Mondal, Dr. Santanu Sen, Dr. Subrata Roy, Dr. A. Majumdar, Patient Name: Rahul Sharma, Patient Age: Not specified, Patient Gender: Male, Date: 13.02.2015, Report Type: U.S.G. OF WHOLE ABDOMEN STUDY, Liver: Normal in size (129.99 mm), normal shape, regular smooth outline, and homogenous echotexture. No focal parenchymal lesion is evident. Intrahepatic biliary radicles are not dilated. Branches of Portal vein are normal. Porta: Appearance is normal. Common Bile Duct: Dilated 9.11 mm. No intraluminal pathology (calculi/mass) could be detected at its visualised part. Portal vein at porta: Normal (13.68 mm). Gall Bladder: Physiologically distended; wall thickness appears normal. No intraluminal pathology (calculi/mass) could be detected. Sonographic Murphy's sign is negative. Pancreas: Echogenecity appears within limits, without any focal lesion. Shape, size and position appears normal. No calcular disease noted. Pancreatic duct is not dilated. No peri-pancreatic collection of fluid noted. Spleen: Normal in size (101.30 mm). Homogenous and smooth echotexture without any focal lesion. Splenic vein at hilum appears normal. No definite collaterals could be detected. Kidneys: Both are normal in shape, size, axes and position. Cortical echogenecity appears normal maintaining cortico-medullary and cortico-hepatic differentiation. Margin is regular and cortical thickness is uniform. No calcular disease noted. No hydronephrotic changes detected. Visualised part of Upper Ureters are not dilated. Right kidney length: 109.87 mm. Left kidney length: 101.77 mm. Urinary Bladder: Distended, wall thickness appeared normal. No intraluminal pathology (calculi/mass) could be detected.",
+    "low_quality": false
+  },
+  {
+    "image": "012img.jpg",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.89,
+    "low_quality": false
+  },
+  {
+    "image": "013img.jpg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 98.73,
+    "ner_avg_confidence": 78.15,
+    "entity_count": 48,
+    "raw_text": "HOSPITALS DHEE Hospitals Healthler, Happler & Together Khatta No 744/784, BOOCHS Layouf,Narayana Nagar, PEH-2025-2879 Doddakallasandra 1st Stage,KanakapuraRoad,Bangalore-560062 Ph:(M)9900570033,(L)080 69899999 Email:info@dheehospitals.com Discharge Summary IP No. :104726 UHID NO Patient Name :DHEE.23100085 : Baby PRANEET SAHA Age/Sex : 7 Year(s) 2 Month(s) /Male Admission DateTime :23/12/2025 08:11 AM Doctor Name : Dr. SUPRAJA/MANVANTHAR/SUHAS (PEDIATRICS & PEDIATRIC INTENSIVE Discharge DateTime CARE) :26/12/2025 12:41 PM Company : Medi Assist Insurance TPA Private Limited 71. Currently the child is clinically and hemodynamically stable, reduced symptoms, no further fever spikes, with good oral intake, hence she is being discharged with the following medical advice. DISCHARGE ADVICE: 1.CAP. CLINDAMYCIN 300MG - 1 CAPSULE ORALLY, THREE TIMES A DAY FOR 4DAYS 2.SYP. TAXIM O FORTE (100MG/5ML) -7.5ML ORALLY, TWICE A DAY FOR 4 DAYS 3.TAB. JUNIOR LANZOL (30MG) -1 TABLET ORALLY, ONCE A DAY FOR 4 DAYS - HALF AN HOUR BEFORE FOOD 4.SYP. MUCOLYTE 5ML ORALLY THRICE A DAY FOR 1 DAY 5.SYP. CALPOL (250MG/5ML) 8ML ORALLY, SOS FOR FEVER - ONLY IF TEMP.> 9.5'F, MAXIMUM 4 TIMES A DAY, 6 HOURS APART 6.AFTER 1 WEEK, SYP. TONOFERON PED (80) - 5ML ONCE A DAY 1 HOUR BEFORE FOOD FOR 1 MONTH IET Advice ake half plate fruits and veggies, quarter plate grains mainly millets and whole grains, quarter late proteins like Dhais Rajma Lobia etc and i cup curds or milk with each meal. Ensure child ats less of biscuits chocolates chips and any ready to eat dishes. They are all high in empty alories salt and sugar with added preservatives and additives hence are non-nutritious. ron Rich food to be given after a week of recovery- Dates Raisin Almonds Green leafy eggies Red Meats. AVOID too much milk especially cow's milk. Encourage Raagi over rice ; Rajma Channa etc Vaccination Ensure Regular Vaccinations as per IAP schedule 2024-25 FLU/Influenza vaccine to be taken every year FOLLOW UP Review in OPD after 3 days with prior appointment with DR. SUPRAJA",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "7 year",
+        "confidence": 73.33
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "2 month",
+        "confidence": 78.92
+      },
+      {
+        "entity_type": "DATE",
+        "text": "23 / 12 / 2025",
+        "confidence": 64.85
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "clindamycin",
+        "confidence": 98.74
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "300mg",
+        "confidence": 98.15
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 capsule",
+        "confidence": 87.23
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "orally",
+        "confidence": 51.14
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "three times a day for",
+        "confidence": 83.14
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "4days",
+        "confidence": 86.89
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "taxim o forte",
+        "confidence": 98.39
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "100mg",
+        "confidence": 91.14
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "7 . 5ml",
+        "confidence": 85.01
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "orally ,",
+        "confidence": 63.74
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "twice a day",
+        "confidence": 97.47
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "for",
+        "confidence": 18.31
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "4 days",
+        "confidence": 93.9
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "junior",
+        "confidence": 89.09
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "lanzol",
+        "confidence": 83.05
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "30mg",
+        "confidence": 70.92
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tablet",
+        "confidence": 96.51
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "orally ,",
+        "confidence": 72.75
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once a day for",
+        "confidence": 77.02
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "4 days",
+        "confidence": 94.71
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "half an hour",
+        "confidence": 60.65
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "before food",
+        "confidence": 95.91
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "mucolyte",
+        "confidence": 97.91
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "5ml",
+        "confidence": 81.26
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "orally",
+        "confidence": 51.78
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "thrice a day",
+        "confidence": 96.23
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "for",
+        "confidence": 27.22
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "1 day",
+        "confidence": 92.12
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "calpol",
+        "confidence": 96.8
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "250mg",
+        "confidence": 79.55
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "8ml",
+        "confidence": 95.27
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "orally ,",
+        "confidence": 66.16
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "sos",
+        "confidence": 73.76
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "4 times a day ,",
+        "confidence": 88.02
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "6 hours apart",
+        "confidence": 56.86
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "6 .",
+        "confidence": 54.5
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "1 week",
+        "confidence": 93.86
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "tonoferon",
+        "confidence": 98.27
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "ped",
+        "confidence": 50.41
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "5ml",
+        "confidence": 82.44
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once a day",
+        "confidence": 97.96
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "1 hour",
+        "confidence": 47.56
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "before food",
+        "confidence": 95.88
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "for",
+        "confidence": 20.58
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "1 month",
+        "confidence": 95.95
+      }
+    ],
+    "summary": "Document Type: Discharge Summary. Hospital: DHEE Hospitals, Khatta No 744/784, BOOCHS Layout, Narayana Nagar, PEH-2025-2879 Doddakallasandra 1st Stage, Kanakapura Road, Bangalore-560062. Phone: (M)9900570033, (L)080 69899999. Email: info@dheehospitals.com. Patient Name: Baby PRANEET SAHA. Age/Sex: 7 Year(s) 2 Month(s) / Male. IP No.: 104726. UHID NO: DHEE.23100085. Admission DateTime: 23/12/2025 08:11 AM. Discharge DateTime: 26/12/2025 12:41 PM. Insurance Company: Medi Assist Insurance TPA Private Limited. Doctor Name: Dr. SUPRAJA/MANVANTHAR/SUHAS (PEDIATRICS & PEDIATRIC INTENSIVE CARE). Doctor qualifications and registration number are not specified. Complaints/Symptoms/Diagnosis: Not explicitly stated as complaints or diagnosis; the child is discharged as clinically and hemodynamically stable, with reduced symptoms, no further fever spikes, and good oral intake. Medications: 1) Clindamycin 300mg: 1 Capsule, Orally, Three times a day, for 4 days. 2) Taxim O Forte 100mg/5ml: 7.5ml Syrup, Orally, Twice a day, for 4 days. 3) Junior Lanzol 30mg: 1 Tablet, Orally, Once a day, for 4 days, half an hour before food. 4) Mucolyte: 5ml Syrup, Orally, Thrice a day, for 1 day. 5) Calpol 250mg/5ml: 8ml Syrup, Orally, SOS for fever (only if Temp.> 9.5'F), maximum 4 times a day, 6 hours apart. 6) Tonoferon Ped (80): 5ml Syrup, Orally, Once a day, for 1 month (starting after 1 week), 1 hour before food. Dietary Advice: Take half plate fruits and veggies, quarter plate grains (mainly millets and whole grains), quarter plate proteins (like Dhais Rajma Lobia etc), and 1 cup curds or milk with each meal. Ensure child eats less of biscuits, chocolates, chips, and any ready to eat dishes, as they are all high in empty calories, salt, and sugar with added preservatives and additives, hence non-nutritious. Iron Rich food to be given after a week of recovery: Dates, Raisin, Almonds, Green leafy veggies, Red Meats. AVOID too much milk especially cow's milk. Encourage Raagi over rice; Rajma Channa etc. Vaccination: Ensure Regular Vaccinations as per IAP schedule 2024-25. FLU/Influenza vaccine to be taken every year. Follow-up: Review in OPD after 3 days with prior appointment with DR. SUPRAJA.",
+    "low_quality": false
+  },
+  {
+    "image": "014img.jpeg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.87,
+    "ocr_confidence": 96.32,
+    "ner_avg_confidence": 75.14,
+    "entity_count": 28,
+    "raw_text": "manipalhospitals LIFE'S ON URN:MH014971479 OUTPATIENT RECORD Hospital No: MH014971479 Visit No: O32000447440 MRS ANJANA GHOSH Name 55 Yrs/Female Age/Sex: PULMONOLOGY MMW DR. ARNAB BERA Specialty: Doctor Name: Date: 18/04/2026 02:01PM BP Diastolic: 86 mmHg Pulse Rate: 79 bt/min BP Systolic: 139 mmHg Height: 146 cm Weight: 88 kg Saturation(Oxygen): 89 % BMI: 41.28 Ideal Body Weight (calculated): 39.68 kg History of presenting illness: POST MVR/AVR-ON WARF NOW BETTER CHEST B/L DIMINISHED VBS SEVERE OSA PFT - MODERATE RESTRICTIVE CXR PA VIEW-INCREASED BVM Medications: MDI FORACORT G 2 PUFF BD WITH ZSVT SPACER MDI DUOLIN 2 PUFF SOS T. MONTEK AB OD BEFORE DINNER TO CONT CAP NEXPRO RD OD B/BF TO CONT CIPLUNG POWDER 1 SCOOP IN 125 ML OF WARM WATER DAILY OVERNIGHT AUTO CPAP TO HOLD FOR NOW - RESTART ONCE BLEEDING STOPS INCENTIVE SPIROMETRY TO CONT SYR RACIRAFT 2 TSF TDS AFTER MEAL FOR 10 DAYS Follow up Advice: REVIEW AFTER 3 MONTHS WITH PFT WITH BDR/CBC/PT/INR/CXR PA VIEW Amb ken DR. ARNAB BERA \"MBBS,MD (Pulmonary Medicine),DNB (Pulmonary Medicine),Fellow in Critical Care Medicine\" Reg. No.: WBMC 68473 1 an  S g  + 9  0 aa e o  te) CIN:U45200WB2007PTC112554 Regd. Off. 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal, India P +91 33 6652 0000 E info@manipalhospitals.com www.manipalhospitals.com",
+    "entities": [
+      {
+        "entity_type": "PATIENT_NAME",
+        "text": "mrs anjana ghosh name",
+        "confidence": 95.09
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "55 yrs",
+        "confidence": 97.37
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "female",
+        "confidence": 89.92
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bp",
+        "confidence": 93.76
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "diastolic",
+        "confidence": 78.93
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "pulse rate",
+        "confidence": 90.33
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bp",
+        "confidence": 88.94
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "systolic",
+        "confidence": 73.22
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "height",
+        "confidence": 88.53
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "weight",
+        "confidence": 88.42
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "saturation",
+        "confidence": 69.98
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bmi",
+        "confidence": 89.34
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "ideal",
+        "confidence": 45.37
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "body weight",
+        "confidence": 41.09
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "foracort",
+        "confidence": 81.23
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "2",
+        "confidence": 44.01
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "2",
+        "confidence": 49.89
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "montek",
+        "confidence": 71.99
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "before dinner",
+        "confidence": 71.71
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "ciplung",
+        "confidence": 87.25
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 scoop",
+        "confidence": 67.93
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "125 ml of",
+        "confidence": 60.97
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "raciraft",
+        "confidence": 61.48
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "2 tsf",
+        "confidence": 45.84
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "tds",
+        "confidence": 88.13
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after meal",
+        "confidence": 92.41
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "10 days",
+        "confidence": 89.12
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "3 months",
+        "confidence": 61.53
+      }
+    ],
+    "summary": "Document Type: Outpatient Record, Hospital Name: manipalhospitals, Hospital Address: 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal, India, Hospital Contact: P +91 33 6652 0000, E info@manipalhospitals.com, Hospital Website: www.manipalhospitals.com, Doctor Name: DR. ARNAB BERA, Doctor Qualifications: MBBS, MD (Pulmonary Medicine), DNB (Pulmonary Medicine), Fellow in Critical Care Medicine, Doctor Registration No: WBMC 68473, Patient Name: MRS ANJANA GHOSH, Patient Age: 55 Yrs, Patient Gender: Female, Date: 18/04/2026 02:01PM, Complaints/Symptoms/Diagnosis: History of presenting illness: POST MVR/AVR-ON WARF NOW BETTER CHEST B/L DIMINISHED VBS SEVERE OSA PFT - MODERATE RESTRICTIVE CXR PA VIEW-INCREASED BVM, Medications: 1) FORACORT G MDI: Dosage: 2 puffs, Frequency: BD (twice daily), Route: Inhalation, Instructions: with ZSVT spacer, Duration: unknown. 2) DUOLIN MDI: Dosage: 2 puffs, Frequency: SOS (as needed), Route: Inhalation, Duration: unknown. 3) MONTEK AB Tablet: Dosage: 1 (implied), Strength: unknown, Frequency: OD (once daily), Instructions: before dinner, Duration: to continue. 4) NEXPRO RD Capsule: Dosage: 1 (implied), Strength: unknown, Frequency: OD (once daily), Instructions: before breakfast, Duration: to continue. 5) CIPLUNG POWDER: Dosage: 1 scoop in 125 ml of warm water, Strength: unknown, Frequency: daily, Instructions: overnight, Duration: unknown. 6) RACIRAFT Syrup: Dosage: 2 TSF (teaspoonfuls), Strength: unknown, Frequency: TDS (three times daily), Instructions: after meal, Duration: for 10 days. Other Treatments: AUTO CPAP: Instructions: to hold for now, restart once bleeding stops. INCENTIVE SPIROMETRY: Instructions: to continue. Follow-up Advice: Review after 3 months with PFT with BDR/CBC/PT/INR/CXR PA view.",
+    "low_quality": false
+  },
+  {
+    "image": "015img.jpeg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.88,
+    "ocr_confidence": 97.17,
+    "ner_avg_confidence": 92.36,
+    "entity_count": 18,
+    "raw_text": "manipalhospitals LIFE'S ON 54 Yr(s) Sex :Female Age : MRS ANJANA GHOSH Name 2501940704-3 Lab No : : MH014971479 Registration No 13 Dec 2025 10:16 Collection Date : R32000072125 Patient Episode Reporting Date : 13 Dec 2025 12:27 DR. ABHISHEK KUMAR Referred By Receiving Date : 13 Dec 2025 10:30 BIOCHEMISTRY BIOLOGICAL REFERENCE INTERVAL UNIT TEST RESULT Microalbumin Creatinine Ratio Specimen : Urine [0.00-16.70] 1087.81 # mg/L URINE MICROALBUMIN (Random) Method: Immunoturbidimetry [20.0-320.0] mg/dL 45.0 URINE CREATININE(Random) Method:Enzymatic IFCC, IDMS [0.00-30.00]of ug/mg 2417.36 # URINE MICROALBUMIN CREATININE RATIO Creatinine Method: Calculated Normal: < 30 Microalbuminuria: 30 - 300 Clinical Microalbuminuria: > 300 The test result mentioned here should be interpreted in view of Note: clinical condition of the patient.In case of any clinical suspicion regarding any parameter, repeat test with fresh sample essential to conclude. Pagel of 8 danay DR. KAMALESH CHATTOPADHYAY Ph.D. FAIC (UK), Sr. Consultant Biochemistry Ths reprt is based on the specimen/s received The repor may need to be corrlated clinicaly as laboratory nvestgators are dependent on mutiple vanables. These results should not be reproduced in part Me m/e mdy  re  other than the Authorizing Signatory mentioned in the repor, in the interest of the patient Department of Laboratory Medicine Manipal Hospital E.M. Bypass 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal P +91 33 6652 0000 Manipal Hospitals Eastern India Private Limited (Formerty known as Medica Hospitals Private Limited) CIN: U45200WB2007PTC112554 Regd. Off. 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal, India P+91 33 6652 0000 E info@manipalhospitals.com www.manipalhospitals.com",
+    "entities": [
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "abhishek",
+        "confidence": 76.84
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "microalbumin creatinine ratio",
+        "confidence": 91.11
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 00 - 16 . 70",
+        "confidence": 99.02
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1087 . 81",
+        "confidence": 97.65
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "#",
+        "confidence": 70.52
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / l",
+        "confidence": 94.63
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "microalbumin",
+        "confidence": 97.93
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "20 . 0 - 320 . 0",
+        "confidence": 99.23
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 97.76
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "45 . 0",
+        "confidence": 80.8
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "creatinine",
+        "confidence": 96.93
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 00 - 30 . 00",
+        "confidence": 99.16
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "ug / mg",
+        "confidence": 91.92
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2417 . 36",
+        "confidence": 96.58
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "microalbumin creatinine ratio creatinine",
+        "confidence": 92.66
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "microalbuminuria",
+        "confidence": 89.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "30 - 300",
+        "confidence": 98.8
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "microalbuminuria",
+        "confidence": 91.09
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report. Hospital/Lab Name: Manipal Hospitals, Department of Laboratory Medicine, Manipal Hospitals Eastern India Private Limited, Address: 127, Mukundapur, E.M. Bypass, Kolkata 700 099, West Bengal, India, Phone: +91 33 6652 0000, Email: info@manipalhospitals.com, Website: www.manipalhospitals.com. Referred By: Dr. Abhishek Kumar. Authorizing Signatory: Dr. Kamalesh Chattopadhyay Ph.D. FAIC (UK), Sr. Consultant Biochemistry. Patient Name: Mrs Anjana Ghosh, Age: 54 years, Gender: Female, Collection Date: 13 Dec 2025 10:16, Receiving Date: 13 Dec 2025 10:30, Reporting Date: 13 Dec 2025 12:27. Report Type: Biochemistry. Tests: URINE MICROALBUMIN (Random): 1087.81 mg/L (High, Reference Range: 0.00-16.70 mg/L). URINE CREATININE (Random): 45.0 mg/dL (Normal, Reference Range: 20.0-320.0 mg/dL). URINE MICROALBUMIN CREATININE RATIO: 2417.36 ug/mg (High, Reference Range: 0.00-30.00 ug/mg; interpreted as Clinical Microalbuminuria given categories Normal: < 30 ug/mg, Microalbuminuria: 30 - 300 ug/mg, Clinical Microalbuminuria: > 300 ug/mg). Remarks: The test result mentioned here should be interpreted in view of the clinical condition of the patient. In case of any clinical suspicion regarding any parameter, repeat test with fresh sample essential to conclude.",
+    "low_quality": false
+  },
+  {
+    "image": "016img.jpg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 98.63,
+    "ner_avg_confidence": 75.28,
+    "entity_count": 21,
+    "raw_text": "IRLA HOSPITALS | DAn Regd.No.:33711318 BELGHARIA X-RAY CLINIC & DIAGNOSTIC CENTRE DG 7/1A, B. M. BANERJEE ROAD, BELGHARIA, KOLKATA-700 056. PHONE: 2544-4837, 2544-4838 E-mail Id:belghariaxrayclinic1966@gmail.com Serial No :26/12/2023 Date :BXC/26/12/2023/27 Name :54/MALE Age/Sex : ARUP DAS Referred By : Dr. RATAN KUMAR DAS Echocardiography Report (2D & M-Mode) 2D Measurement LVIDD :47.9 mm. LVIDs :29.1mm. LVPWD :11.9mm. IVSD :11.9 mm. LVEF :69% AOD :28.6 mm. LAD :31.7 mm. RVD :18.4 mm. Left Ventricle: Cavity size / Wall thickness : Concentric LVH. : No regional wall motion abnormality. LV wall motion wall study : Good Systolic Function Diastolic compliance : Grade-I LVDD : Normal sized, No mass in the appendage / body. Left atrium : Normal sized, Good RV systolic function. RV& RA : Normal leaflets, good excursion, normal subvalvar Mitral valve apparatus. No regurgitation. : Three cusps-No thickening, good systolic excursion. Aortic Valve No significant regurgitation. : Normal leaflets, normal sized annulus. Tricuspid valve No significant regurgitation. Pulmonic Valve : Normal cusps, good systolic excursion. : Intact. Inter Atrial septum : Intact Ventricular septum Pericardium : No thickening, no effusion. Others : No intra-cardiac mass. Conclusion → Borderline concentric LVH. → No RWMA → Good bi-ventricular systolic function with grade I LVDD. → No pulmonary arterial hypertension. Ashutosh Mukherjee Prof. Dr. Santanu Das Dr. Kamalesh Gorai Dr. M. Sikder BBS., DMRD (IPGMER) MD (Radiodiagnosis) MD., DM (Cardio) MBBS., MD (Path) Professor of Radiology onsultant Radiologist Consultant Pathologist gital X-Ray·Computerised Pathology·Echo-Cardio·USG·ECG·NCV·PFT",
+    "entities": [
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lvidd",
+        "confidence": 77.28
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "47 . 9",
+        "confidence": 94.51
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 87.43
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lvids",
+        "confidence": 47.09
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "29 . 1mm",
+        "confidence": 90.55
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lvpwd",
+        "confidence": 58.3
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "11 . 9mm",
+        "confidence": 93.53
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "ivsd",
+        "confidence": 52.29
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "11 . 9",
+        "confidence": 94.98
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 87.15
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lvef",
+        "confidence": 48.02
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "69",
+        "confidence": 61.1
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 31.21
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "aod",
+        "confidence": 73.23
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "28 . 6",
+        "confidence": 93.71
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 85.22
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "31 . 7",
+        "confidence": 89.96
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 84.56
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rvd",
+        "confidence": 56.6
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "18 . 4",
+        "confidence": 91.66
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 82.56
+      }
+    ],
+    "summary": "Document Type: Echocardiography Report. Hospital/Lab Name: IRLA HOSPITALS | BELGHARIA X-RAY CLINIC & DIAGNOSTIC CENTRE, Address: DG 7/1A, B. M. BANERJEE ROAD, BELGHARIA, KOLKATA-700 056, Phone: 2544-4837, 2544-4838, E-mail Id: belghariaxrayclinic1966@gmail.com. Serial No: 26/12/2023, Report Date: BXC/26/12/2023/27. Patient Name: ARUP DAS, Age: 54, Gender: MALE. Referred By: Dr. RATAN KUMAR DAS. Consulting Doctors: Dr. Ashutosh Mukherjee, Prof. Dr. Santanu Das, Dr. Kamalesh Gorai, Dr. M. Sikder. Echocardiography Report (2D & M-Mode) Measurements: LVIDD: 47.9 mm (Reference Range: Not provided, Status: Not determinable), LVIDs: 29.1 mm (Reference Range: Not provided, Status: Not determinable), LVPWD: 11.9 mm (Reference Range: Not provided, Status: Not determinable), IVSD: 11.9 mm (Reference Range: Not provided, Status: Not determinable), LVEF: 69 % (Reference Range: Not provided, Status: Not determinable), AOD: 28.6 mm (Reference Range: Not provided, Status: Not determinable), LAD: 31.7 mm (Reference Range: Not provided, Status: Not determinable), RVD: 18.4 mm (Reference Range: Not provided, Status: Not determinable). Left Ventricle: Cavity size / Wall thickness: Concentric LVH. LV wall motion wall study: No regional wall motion abnormality, Good Systolic Function. Diastolic compliance: Grade-I LVDD. Left atrium: Normal sized, No mass in the appendage / body. RV& RA: Normal sized, Good RV systolic function. Mitral valve apparatus: Normal leaflets, good excursion, normal subvalvar, No regurgitation. Aortic Valve: Three cusps-No thickening, good systolic excursion. No significant regurgitation. Normal leaflets, normal sized annulus. Tricuspid valve: No significant regurgitation. Pulmonic Valve: Normal cusps, good systolic excursion. Inter Atrial septum: Intact. Ventricular septum: Intact. Pericardium: No thickening, no effusion. Others: No intra-cardiac mass. Conclusion: Borderline concentric LVH. No RWMA. Good bi-ventricular systolic function with grade I LVDD. No pulmonary arterial hypertension.",
+    "low_quality": false
+  },
+  {
+    "image": "017img.png",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "018img.jpg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 97.53,
+    "ner_avg_confidence": 81.72,
+    "entity_count": 50,
+    "raw_text": "Apollo Clinic SAykpertise. Closer to yo Mr ARUP DAS Age / Gender tient Name FBIROPV52624 OP Visit No FBIR 0000024281 HID/MR No. 03-11-2024 12:10 Reported on 03-11-20240848 sit Date Whole Biood (Edta) Specimen 03-11-20240956 ample Collected on WHB1606626 ample No Pres Doctor: Di DEBABRATA JOARDAR of Doctor DEPARTMENT OF LABORATORY MEDICINE UNI RESULT BIOLOGICAL REFERENCEINTERVALS TESTNAME COMPLETE BLOOD COUNT gm 13.7 13-17 HAEMOGLOBIN Method: Non Cyanide,Sis Based ce 10700 4000-11000 TOTAL WBC COUNT Method: Electrical Impedence M 4.5-55 4.87 RBC COUNT Method Electrical Impedence 4 40-50 41.8 HEMATOCRIT(PCV) Method Cumulative Pulse U MCV 858 83-101fl Method Calculated 27 - 32 pg 282 MCH a Method Calculated 328 31.5-34.5 MCHC Method: Calculated 13.1 RDW 11.6-14% 1.90 1.5 - 4.0 lakhs/ cu mm PLATELET COUNT Method: Electrical Impedence 76 40-80 NEUTROPHIL Method: Microscopy 21 20-40 % LYMPHOCYTE Method Microscopy 02 2-10 % MONOCYTE Method Microscopy 01 1-6 9% EOSINOPHIL Method: Microscopy 00 <1-2 % BASOPHIL Method Microscopy 46 Male: < 12 mm ESR Female < 19 Method: Westergren's Method End of the report Results are to be correlated clinically ab Technician/Technologist Dr. MANAS TALUKDAR IMPA_PAUL MBBS,MD (PATH) CONSULTANT PATHOLOGIST TO BOOK AN APPOINTMENT 2999 394 0990 Licensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP) 2999 395 0990 GST:19AAZFR2086G1ZH Pag Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051",
+    "entities": [
+      {
+        "entity_type": "TEST_NAME",
+        "text": "complete blood count",
+        "confidence": 82.09
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "gm",
+        "confidence": 91.6
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13 .",
+        "confidence": 74.49
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "13 - 17",
+        "confidence": 98.14
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "haemoglobin",
+        "confidence": 87.21
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "10700",
+        "confidence": 75.56
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4000 - 11000",
+        "confidence": 98.8
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "total",
+        "confidence": 77.85
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "wbc count",
+        "confidence": 85.4
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 5 - 55",
+        "confidence": 98.99
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 87",
+        "confidence": 82.68
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rbc",
+        "confidence": 89.52
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4",
+        "confidence": 95.26
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "40 - 50",
+        "confidence": 98.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "41 . 8",
+        "confidence": 90.75
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "hematocrit",
+        "confidence": 94.78
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "cumulative pulse u mcv",
+        "confidence": 83.08
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "858",
+        "confidence": 70.64
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "83 - 101fl",
+        "confidence": 86.32
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "27 - 32",
+        "confidence": 98.55
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "pg",
+        "confidence": 83.79
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "282",
+        "confidence": 68.14
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mch",
+        "confidence": 45.69
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "328",
+        "confidence": 93.38
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "31 . 5 - 34 . 5",
+        "confidence": 99.19
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mchc",
+        "confidence": 61.54
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13 . 1",
+        "confidence": 81.15
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rdw",
+        "confidence": 65.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "11 . 6 - 14 %",
+        "confidence": 98.75
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 . 90",
+        "confidence": 98.91
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 . 5 - 4 . 0",
+        "confidence": 98.12
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lakhs",
+        "confidence": 62.49
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "platelet count",
+        "confidence": 92.42
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "76",
+        "confidence": 74.87
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "40 - 80",
+        "confidence": 99.01
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "neutrophil",
+        "confidence": 92.5
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "21",
+        "confidence": 90.92
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "20 - 40",
+        "confidence": 98.98
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 32.02
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lymphocyte",
+        "confidence": 87.28
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "02",
+        "confidence": 68.07
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "2 - 10 %",
+        "confidence": 82.51
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "monocyte",
+        "confidence": 87.4
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "01",
+        "confidence": 70.57
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 - 6 9",
+        "confidence": 97.63
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 41.93
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "eosinophil",
+        "confidence": 91.36
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 - 2",
+        "confidence": 96.76
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 32.37
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 31.93
+      }
+    ],
+    "summary": "Laboratory Investigation Report from Apollo Clinic, operating under RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP) at 25, M.B. ROAD, BIRATI, KOLKATA - 700051, Contact: 2999 394 0990, 2999 395 0990, reported on 03-11-2024. The presiding doctor is Dr DEBABRATA JOARDAR, and the consultant pathologist is Dr. MANAS TALUKDAR. Patient Name: Mr ARUP DAS, Age: Unclear, Gender: Unclear. The report type is Complete Blood Count. Test results are as follows: Haemoglobin: 13 . (Unit: Not provided in structured entities, Reference Range: 13 - 17) - Normal; Total WBC Count: 10700 (Unit: Not provided in structured entities, Reference Range: 4000 - 11000) - Normal; RBC: Value: Not provided in structured entities (Unit: Not provided in structured entities, Reference Range: 4 . 5 - 55) - Cannot determine due to missing value; Hematocrit: Value: Not provided in structured entities (Unit: Not provided in structured entities, Reference Range: 40 - 50) - Cannot determine due to missing value; MCV: 858 (Unit: Not provided in structured entities, Reference Range: 83 - 101fl) - High; MCH: Value: Not provided in structured entities (Unit: pg, Reference Range: 27 - 32) - Cannot determine due to missing value; MCHC: Value: Not provided in structured entities (Unit: Not provided in structured entities, Reference Range: 31 . 5 - 34 . 5) - Cannot determine due to missing value; RDW: 13 . 1 (Unit: %, Reference Range: 11 . 6 - 14 %) - Normal; Platelet Count: Value: Not provided in structured entities (Unit: Not provided in structured entities, Reference Range: 1 . 5 - 4 . 0) - Cannot determine due to missing value; Neutrophil: Value: Not provided in structured entities (Unit: %, Reference Range: 40 - 80) - Cannot determine due to missing value; Lymphocyte: Value: Not provided in structured entities (Unit: %, Reference Range: 20 - 40) - Cannot determine due to missing value; Monocyte: Value: Not provided in structured entities (Unit: %, Reference Range: 2 - 10 %) - Cannot determine due to missing value; Eosinophil: Value: Not provided in structured entities (Unit: Not provided in structured entities, Reference Range: 1 - 6 9) - Cannot determine due to missing value. Basophil and ESR tests are not listed in the provided structured entities for test names and are therefore omitted. Interpretation/Remarks: Results are to be correlated clinically.",
+    "low_quality": false
+  },
+  {
+    "image": "019img.jpeg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 99.26,
+    "ner_avg_confidence": 87.58,
+    "entity_count": 29,
+    "raw_text": "DISCHARGE SUMMARY MR. SWAPAN HALDER K0T20230414043 Dob/ Age : 12-01-1967 / 56 Yr / Male Address : 12/4/2 Rabindra Pally Ps Baguihati Kolkata 700059 Mobile No :9330440039 Reg. No: ADKMC23-24-6185 Patient Category : STAR HEALTH AND ALLIED INSURANCE CO.LTD. Ward Info : 9011/Single-Exec-A/Ward-9f Discharge Type : Regular Discharge Department : Orthopaedics Consultants : Dr. Biplab Kumar Dolui [Ms (Ortho), Afts Fellows (Paris)] Admission Date :28-12-2023 01:12 PM Discharge Date : 30-12-2023 12:48 PM FINAL DIAGNOSIS DIAGNOSIS ICD CODE ACL TEAR WITH MEDIAL MENISCUS TEAR (RIGHT) KNEE HISTORY ON ADMISSION Pain, swelling(right) knee following a fall off a bike on 07/12/2023. EXAMINATION RECORD ACL laxity, ROM - Full, Mild effusion. TREATMENT NOTE Arthroscopic ACL reconstruction with semi T and medial meniscus repair(right) knee under SA on 29/12/2023. CONDITION ON DISCHARGE: Stable. MEDICATION ON DISCHARGE: Cap. RAZO-D - 1 cap once daily before breakfast for 2 weeks. Tab. PCM 1 gm -1 tab thrice daily after food for 5 days. Tab. CHYMORAL BR - 1 tab twice daily after food for 10 days. Tab. CETIL 500 mg -1 tab after breakfast and dinner for 10 days. Tab. SHELCAL-XT - 1 tab after breakfast for 1 month. INSTRUCTION TO THE PATIENT Exercises. No weight bearing. Stitch removal after 2 weeks from Surgery. Review earlier SOS. OR ANY ADVERSE(EMERGENCY) SITUATION i.e : Fever. Pain. Soakage with foul smell, swelling and discoloration of the leg. or any emergency,contact 24567050 to 59 / 40127000 or any nearby Health Clinic Signature ofVISITING CONSULTANT Dr. BIPLAB KUMAR DOLUI MS (Ortho), AFTS Fellows (Paris) 54038(WBMC) A. All Investigations reports received B. Original copy of the dischargre summary received eceived By Patient / Relative :",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "56 yr",
+        "confidence": 81.71
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "male",
+        "confidence": 79.47
+      },
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "rabindra pally ps baguihati kolkata",
+        "confidence": 90.01
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "razo - d -",
+        "confidence": 94.86
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 cap",
+        "confidence": 55.09
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.05
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "before breakfast",
+        "confidence": 93.4
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2 weeks",
+        "confidence": 94.82
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "pcm",
+        "confidence": 87.5
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "1 gm",
+        "confidence": 88.82
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 95.53
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "thrice daily",
+        "confidence": 96.0
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after food",
+        "confidence": 94.64
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "5 days",
+        "confidence": 96.08
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "chymoral br -",
+        "confidence": 66.39
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 79.02
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "twice daily",
+        "confidence": 98.53
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after food",
+        "confidence": 93.93
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "10 days",
+        "confidence": 95.32
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "cetil",
+        "confidence": 98.13
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "500 mg",
+        "confidence": 96.82
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 90.82
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after breakfast",
+        "confidence": 92.32
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "and dinner",
+        "confidence": 62.53
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "10 days",
+        "confidence": 94.54
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "shelcal - xt -",
+        "confidence": 79.7
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 70.75
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after breakfast",
+        "confidence": 90.09
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "1 month",
+        "confidence": 85.0
+      }
+    ],
+    "summary": "Document Type: Discharge Summary. Hospital/Clinic Name: Not specified. Hospital Address: Not specified. Hospital Contact Details: Emergency contact numbers 24567050 to 59 / 40127000. Doctor Name: Dr. Biplab Kumar Dolui, Qualifications: MS (Ortho), AFTS Fellows (Paris), Registration Number: 54038(WBMC). Patient Name: MR. SWAPAN HALDER, Age: 56 Yr, Gender: Male, Patient Reg. No: ADKMC23-24-6185, Patient Address: 12/4/2 Rabindra Pally Ps Baguihati Kolkata 700059, Mobile No: 9330440039, Patient Category: STAR HEALTH AND ALLIED INSURANCE CO.LTD., Ward Info: 9011/Single-Exec-A/Ward-9f. Admission Date: 28-12-2023 01:12 PM, Discharge Date: 30-12-2023 12:48 PM. Discharge Type: Regular Discharge. Department: Orthopaedics. Final Diagnosis: ACL TEAR WITH MEDIAL MENISCUS TEAR (RIGHT) KNEE (ICD CODE: KNEE). History on Admission: Pain, swelling (right) knee following a fall off a bike on 07/12/2023. Examination Record: ACL laxity, ROM - Full, Mild effusion. Treatment Note: Arthroscopic ACL reconstruction with semi T and medial meniscus repair (right) knee under SA on 29/12/2023. Condition on Discharge: Stable. Medications on Discharge: 1) Cap. RAZO-D, Dosage: 1 cap, Frequency: once daily, Route: Oral, Instructions: before breakfast, Duration: 2 weeks. 2) Tab. PCM 1 gm, Dosage: 1 tab, Frequency: thrice daily, Route: Oral, Instructions: after food, Duration: 5 days. 3) Tab. CHYMORAL BR, Dosage: 1 tab, Frequency: twice daily, Route: Oral, Instructions: after food, Duration: 10 days. 4) Tab. CETIL 500 mg, Dosage: 1 tab, Frequency: twice daily, Route: Oral, Instructions: after breakfast and dinner, Duration: 10 days. 5) Tab. SHELCAL-XT, Dosage: 1 tab, Frequency: once daily, Route: Oral, Instructions: after breakfast, Duration: 1 month. Advice and Follow-up Instructions: Exercises. No weight bearing. Stitch removal after 2 weeks from Surgery. Review earlier SOS. Patient instructed to contact 24567050 to 59 / 40127000 or any nearby Health Clinic in case of any adverse/emergency situation including: Fever, Pain, Soakage with foul smell, swelling and discoloration of the leg. Diet Instructions: Not specified.",
+    "low_quality": false
+  },
+  {
+    "image": "020img.jpg",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "021img.png",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "022img.jpeg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 97.79,
+    "ner_avg_confidence": 82.1,
+    "entity_count": 44,
+    "raw_text": "Apollo Clinic Expertise. Closer to you. -. Age / Gender 54Y/Male Mi ARUP DAS BIRATI tient Name OP Visit No FBIROPV52624 FBIR 0000024281 MC-5382 HID/MR No. Reported on 03-11-2024 14:03 03-11-2024 08:48 sit Date Specimen Serum 03-11-2024 09:58 ample Collected on SR02208188 ample No Pres Doctor: Dr DEBABRATA JOARDAR of Doctor DEPARTMENT OF LABORATORY MEDICINE UNITS BIOLOGICAL REFERENCEINTERVALS RESULT TESTNAME LIPID PROFILE TEST (PACKAGE) mg/dl Desirable < 200mg/dl 191 CHOLESTEROL Borderline high 200-239 mg/dl Method CHOD-PAP High: >239 mg/dl mg/di 35.3-79.5 44 HDL Method: CHOD-CHER mg/dl Optimal: < 100 mg/dl 130 LDL Above Optimal: 100 - 129 mg/dl Method CHOD-CHER Borderline High: 130-159 mg/dl High: 160-189mg/dl Very high: 190mg/dl mg/dl Normal: <161 mg/dl 87 TRIGLYCERIDE High: 161-199 mg/dl Method GPO-Trinder Hyper triglyceridemic: 200-499 mg/dl Very high: >499 mg/dl mg/dl 2-30 17 VLDL-Cholesterol Method Calculated End of the report Results are to be correlated clinically DR. RINKITA DEB GANGULY ab Technician /Technologist MEDICAL M.Sc. Ph.D IMPA PAUL CONSULTANT BIOCHEMIST TO BOOK AN APPOINTMENT icensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP) 2999 0990394 GST:19AAZFR2086G1ZH Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051 2999 395 0990 Online appointments:www.apollodliniccom Email:birati@apolloclinic.com Page",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "age",
+        "confidence": 46.93
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "54y /",
+        "confidence": 69.86
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "male",
+        "confidence": 55.4
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lipid profile test",
+        "confidence": 89.12
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 93.89
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "200mg",
+        "confidence": 86.25
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "cholesterol",
+        "confidence": 98.43
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "200 - 239",
+        "confidence": 98.64
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.17
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "chod - pap",
+        "confidence": 59.41
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": ">",
+        "confidence": 44.81
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "239",
+        "confidence": 77.83
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.66
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / di",
+        "confidence": 91.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "35 . 3 - 79 . 5 44",
+        "confidence": 99.22
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "hdl",
+        "confidence": 80.51
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 85.04
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "<",
+        "confidence": 47.5
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "100",
+        "confidence": 62.76
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.53
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "130",
+        "confidence": 39.02
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "ldl",
+        "confidence": 80.37
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "100 - 129",
+        "confidence": 99.0
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 97.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "130 - 159",
+        "confidence": 98.71
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.23
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "160 - 189mg",
+        "confidence": 91.83
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "190mg",
+        "confidence": 80.84
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 84.8
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "<",
+        "confidence": 39.69
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "161",
+        "confidence": 58.66
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.41
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "triglyceride",
+        "confidence": 97.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "161 - 199",
+        "confidence": 98.77
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.11
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "gpo - trinder hyper triglyceridemic",
+        "confidence": 85.13
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "200 - 499",
+        "confidence": 98.86
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.1
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": ">",
+        "confidence": 33.02
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "499",
+        "confidence": 85.47
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.65
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 88.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "2 - 30 17",
+        "confidence": 98.85
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "vldl",
+        "confidence": 81.05
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report. Hospital/Lab Name: Apollo Clinic, operated by RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP), Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051, Online appointments: www.apollodliniccom, Email: birati@apolloclinic.com. Prescribing Doctor: Dr DEBABRATA JOARDAR. Consultant Biochemist: IMPA PAUL. Lab Technician/Technologist: DR. RINKITA DEB GANGULY. Patient Name: ARUP DAS BIRATI, Age: 54Y, Gender: Male. Report Date: 03-11-2024 14:03, Visit Date: 03-11-2024 08:48, Sample Collected On: 03-11-2024 09:58. Specimen: Serum. Report Type: LIPID PROFILE TEST (PACKAGE). CHOLESTEROL: 191 mg/dl (Desirable, Reference Range: Desirable < 200mg/dl, Borderline high 200-239 mg/dl, High: >239 mg/dl; Method: CHOD-PAP). HDL: 44 mg/dl (Normal, Reference Range: 35.3-79.5 mg/dl; Method: CHOD-CHER). LDL: 130 mg/dl (Borderline High, Reference Range: Optimal: < 100 mg/dl, Above Optimal: 100 - 129 mg/dl, Borderline High: 130-159 mg/dl, High: 160-189mg/dl, Very high: 190mg/dl; Method: CHOD-CHER). TRIGLYCERIDE: 87 mg/dl (Normal, Reference Range: Normal: <161 mg/dl, High: 161-199 mg/dl, Hyper triglyceridemic: 200-499 mg/dl, Very high: >499 mg/dl; Method: GPO-Trinder). VLDL-Cholesterol: 17 mg/dl (Normal, Reference Range: 2-30 mg/dl; Method: Calculated). Remarks: Results are to be correlated clinically.",
+    "low_quality": false
+  },
+  {
+    "image": "017img.png",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "018img.jpg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 97.53,
+    "ner_avg_confidence": 81.72,
+    "entity_count": 50,
+    "raw_text": "Apollo Clinic SAykpertise. Closer to yo Mr ARUP DAS Age / Gender tient Name FBIROPV52624 OP Visit No FBIR 0000024281 HID/MR No. 03-11-2024 12:10 Reported on 03-11-20240848 sit Date Whole Biood (Edta) Specimen 03-11-20240956 ample Collected on WHB1606626 ample No Pres Doctor: Di DEBABRATA JOARDAR of Doctor DEPARTMENT OF LABORATORY MEDICINE UNI RESULT BIOLOGICAL REFERENCEINTERVALS TESTNAME COMPLETE BLOOD COUNT gm 13.7 13-17 HAEMOGLOBIN Method: Non Cyanide,Sis Based ce 10700 4000-11000 TOTAL WBC COUNT Method: Electrical Impedence M 4.5-55 4.87 RBC COUNT Method Electrical Impedence 4 40-50 41.8 HEMATOCRIT(PCV) Method Cumulative Pulse U MCV 858 83-101fl Method Calculated 27 - 32 pg 282 MCH a Method Calculated 328 31.5-34.5 MCHC Method: Calculated 13.1 RDW 11.6-14% 1.90 1.5 - 4.0 lakhs/ cu mm PLATELET COUNT Method: Electrical Impedence 76 40-80 NEUTROPHIL Method: Microscopy 21 20-40 % LYMPHOCYTE Method Microscopy 02 2-10 % MONOCYTE Method Microscopy 01 1-6 9% EOSINOPHIL Method: Microscopy 00 <1-2 % BASOPHIL Method Microscopy 46 Male: < 12 mm ESR Female < 19 Method: Westergren's Method End of the report Results are to be correlated clinically ab Technician/Technologist Dr. MANAS TALUKDAR IMPA_PAUL MBBS,MD (PATH) CONSULTANT PATHOLOGIST TO BOOK AN APPOINTMENT 2999 394 0990 Licensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP) 2999 395 0990 GST:19AAZFR2086G1ZH Pag Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051",
+    "entities": [
+      {
+        "entity_type": "TEST_NAME",
+        "text": "complete blood count",
+        "confidence": 82.09
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "gm",
+        "confidence": 91.6
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13 .",
+        "confidence": 74.49
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "13 - 17",
+        "confidence": 98.14
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "haemoglobin",
+        "confidence": 87.21
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "10700",
+        "confidence": 75.56
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4000 - 11000",
+        "confidence": 98.8
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "total",
+        "confidence": 77.85
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "wbc count",
+        "confidence": 85.4
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 5 - 55",
+        "confidence": 98.99
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 87",
+        "confidence": 82.68
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rbc",
+        "confidence": 89.52
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4",
+        "confidence": 95.26
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "40 - 50",
+        "confidence": 98.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "41 . 8",
+        "confidence": 90.75
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "hematocrit",
+        "confidence": 94.78
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "cumulative pulse u mcv",
+        "confidence": 83.08
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "858",
+        "confidence": 70.64
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "83 - 101fl",
+        "confidence": 86.32
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "27 - 32",
+        "confidence": 98.55
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "pg",
+        "confidence": 83.79
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "282",
+        "confidence": 68.14
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mch",
+        "confidence": 45.69
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "328",
+        "confidence": 93.38
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "31 . 5 - 34 . 5",
+        "confidence": 99.19
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "mchc",
+        "confidence": 61.54
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "13 . 1",
+        "confidence": 81.15
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rdw",
+        "confidence": 65.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "11 . 6 - 14 %",
+        "confidence": 98.75
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 . 90",
+        "confidence": 98.91
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 . 5 - 4 . 0",
+        "confidence": 98.12
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lakhs",
+        "confidence": 62.49
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "platelet count",
+        "confidence": 92.42
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "76",
+        "confidence": 74.87
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "40 - 80",
+        "confidence": 99.01
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "neutrophil",
+        "confidence": 92.5
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "21",
+        "confidence": 90.92
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "20 - 40",
+        "confidence": 98.98
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 32.02
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lymphocyte",
+        "confidence": 87.28
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "02",
+        "confidence": 68.07
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "2 - 10 %",
+        "confidence": 82.51
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "monocyte",
+        "confidence": 87.4
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "01",
+        "confidence": 70.57
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 - 6 9",
+        "confidence": 97.63
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 41.93
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "eosinophil",
+        "confidence": 91.36
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 - 2",
+        "confidence": 96.76
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "%",
+        "confidence": 32.37
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 31.93
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report. Hospital/Lab Name: Apollo Clinic, Licensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP). Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051. Contact: 2999 394 0990, 2999 395 0990. Prescribing Doctor: Dr DEBABRATA JOARDAR. Consultant Pathologist: Dr. MANAS TALUKDAR IMPA_PAUL MBBS,MD (PATH). Patient Name: ARUP DAS. Age: Not specified. Gender: Male (inferred from name for ESR evaluation). Report Date: 03-11-2024 12:10 (Reported on). Visit Date: 03-11-2024 0848. Sample Collected On: 03-11-2024 0956. Specimen: Whole Blood (Edta). Report Type: COMPLETE BLOOD COUNT. Tests: HAEMOGLOBIN: 13. gm (Normal, Reference Range: 13 - 17). TOTAL WBC COUNT: 10700 (Normal, Reference Range: 4000 - 11000). RBC COUNT: 4.87 (Status not determinable due to ambiguous reference ranges from NER model, Reference Range: 4.5 - 55, 4). HEMATOCRIT(PCV): 41.8% (Normal, Reference Range: 40 - 50). MCV: 858 fl (High, Reference Range: 83 - 101fl). MCH: 28.2 pg (Normal, Reference Range: 27 - 32). MCHC: 32.8 (Normal, Reference Range: 31.5 - 34.5). RDW: 13.1 % (Normal, Reference Range: 11.6 - 14 %). PLATELET COUNT: 1.90 lakhs/cu mm (Normal, Reference Range: 1.5 - 4.0). NEUTROPHIL: 76 % (Normal, Reference Range: 40 - 80). LYMPHOCYTE: 21 % (Normal, Reference Range: 20 - 40). MONOCYTE: 02 % (Normal, Reference Range: 2 - 10 %). EOSINOPHIL: 01 % (Normal, Reference Range: 1 - 6 9). BASOPHIL: 00 % (Low, Reference Range: 1 - 2). ESR: 46 mm (High, Reference Range: Male: < 12 mm, Female: < 19 mm). Remarks: Results are to be correlated clinically.",
+    "low_quality": false
+  },
+  {
+    "image": "019img.jpeg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 99.26,
+    "ner_avg_confidence": 87.58,
+    "entity_count": 29,
+    "raw_text": "DISCHARGE SUMMARY MR. SWAPAN HALDER K0T20230414043 Dob/ Age : 12-01-1967 / 56 Yr / Male Address : 12/4/2 Rabindra Pally Ps Baguihati Kolkata 700059 Mobile No :9330440039 Reg. No: ADKMC23-24-6185 Patient Category : STAR HEALTH AND ALLIED INSURANCE CO.LTD. Ward Info : 9011/Single-Exec-A/Ward-9f Discharge Type : Regular Discharge Department : Orthopaedics Consultants : Dr. Biplab Kumar Dolui [Ms (Ortho), Afts Fellows (Paris)] Admission Date :28-12-2023 01:12 PM Discharge Date : 30-12-2023 12:48 PM FINAL DIAGNOSIS DIAGNOSIS ICD CODE ACL TEAR WITH MEDIAL MENISCUS TEAR (RIGHT) KNEE HISTORY ON ADMISSION Pain, swelling(right) knee following a fall off a bike on 07/12/2023. EXAMINATION RECORD ACL laxity, ROM - Full, Mild effusion. TREATMENT NOTE Arthroscopic ACL reconstruction with semi T and medial meniscus repair(right) knee under SA on 29/12/2023. CONDITION ON DISCHARGE: Stable. MEDICATION ON DISCHARGE: Cap. RAZO-D - 1 cap once daily before breakfast for 2 weeks. Tab. PCM 1 gm -1 tab thrice daily after food for 5 days. Tab. CHYMORAL BR - 1 tab twice daily after food for 10 days. Tab. CETIL 500 mg -1 tab after breakfast and dinner for 10 days. Tab. SHELCAL-XT - 1 tab after breakfast for 1 month. INSTRUCTION TO THE PATIENT Exercises. No weight bearing. Stitch removal after 2 weeks from Surgery. Review earlier SOS. OR ANY ADVERSE(EMERGENCY) SITUATION i.e : Fever. Pain. Soakage with foul smell, swelling and discoloration of the leg. or any emergency,contact 24567050 to 59 / 40127000 or any nearby Health Clinic Signature ofVISITING CONSULTANT Dr. BIPLAB KUMAR DOLUI MS (Ortho), AFTS Fellows (Paris) 54038(WBMC) A. All Investigations reports received B. Original copy of the dischargre summary received eceived By Patient / Relative :",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "56 yr",
+        "confidence": 81.71
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "male",
+        "confidence": 79.47
+      },
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "rabindra pally ps baguihati kolkata",
+        "confidence": 90.01
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "razo - d -",
+        "confidence": 94.86
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 cap",
+        "confidence": 55.09
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "once daily",
+        "confidence": 98.05
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "before breakfast",
+        "confidence": 93.4
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2 weeks",
+        "confidence": 94.82
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "pcm",
+        "confidence": 87.5
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "1 gm",
+        "confidence": 88.82
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 95.53
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "thrice daily",
+        "confidence": 96.0
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after food",
+        "confidence": 94.64
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "5 days",
+        "confidence": 96.08
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "chymoral br -",
+        "confidence": 66.39
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 79.02
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "twice daily",
+        "confidence": 98.53
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after food",
+        "confidence": 93.93
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "10 days",
+        "confidence": 95.32
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "cetil",
+        "confidence": 98.13
+      },
+      {
+        "entity_type": "DRUG_STRENGTH",
+        "text": "500 mg",
+        "confidence": 96.82
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 90.82
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after breakfast",
+        "confidence": 92.32
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "and dinner",
+        "confidence": 62.53
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "10 days",
+        "confidence": 94.54
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "shelcal - xt -",
+        "confidence": 79.7
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1 tab",
+        "confidence": 70.75
+      },
+      {
+        "entity_type": "INSTRUCTION",
+        "text": "after breakfast",
+        "confidence": 90.09
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "1 month",
+        "confidence": 85.0
+      }
+    ],
+    "summary": "Document Type: Discharge Summary. Hospital/Clinic Name: Not specified, patient registration number ADKMC23-24-6185 and emergency contact numbers 24567050 to 59 / 40127000 are provided. Doctor Name: Dr. Biplab Kumar Dolui, Qualifications: MS (Ortho), AFTS Fellows (Paris), Registration Number: 54038(WBMC). Patient Name: Mr. Swapan Halder, Age: 56 years, Gender: Male, Date of Discharge: 30-12-2023. Complaints/History on Admission: Pain and swelling in the right knee following a fall off a bike on 07/12/2023. Final Diagnosis: ACL Tear with Medial Meniscus Tear (Right) Knee, ICD Code not specified. Condition on Discharge: Stable. Medications on Discharge: 1) RAZO-D Capsule (Strength not specified), 1-0-0 (once daily), Oral, for 2 weeks, before breakfast. 2) PCM 1 gm Tablet, 1-1-1 (thrice daily), Oral, for 5 days, after food. 3) CHYMORAL BR Tablet (Strength not specified), 1-0-1 (twice daily), Oral, for 10 days, after food. 4) CETIL 500 mg Tablet, 1-0-1 (twice daily), Oral, for 10 days, after breakfast and dinner. 5) SHELCAL-XT Tablet (Strength not specified), 1-0-0 (once daily), Oral, for 1 month, after breakfast. Advice and Follow-up Instructions: Perform exercises. No weight bearing. Stitch removal after 2 weeks from surgery. Review earlier SOS or in any adverse (emergency) situation (e.g., fever, pain, soakage with foul smell, swelling and discoloration of the leg), contact 24567050 to 59 / 40127000 or any nearby Health Clinic. Diet instructions: Not specified.",
+    "low_quality": false
+  },
+  {
+    "image": "020img.jpg",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "021img.png",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "022img.jpeg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 97.79,
+    "ner_avg_confidence": 82.1,
+    "entity_count": 44,
+    "raw_text": "Apollo Clinic Expertise. Closer to you. -. Age / Gender 54Y/Male Mi ARUP DAS BIRATI tient Name OP Visit No FBIROPV52624 FBIR 0000024281 MC-5382 HID/MR No. Reported on 03-11-2024 14:03 03-11-2024 08:48 sit Date Specimen Serum 03-11-2024 09:58 ample Collected on SR02208188 ample No Pres Doctor: Dr DEBABRATA JOARDAR of Doctor DEPARTMENT OF LABORATORY MEDICINE UNITS BIOLOGICAL REFERENCEINTERVALS RESULT TESTNAME LIPID PROFILE TEST (PACKAGE) mg/dl Desirable < 200mg/dl 191 CHOLESTEROL Borderline high 200-239 mg/dl Method CHOD-PAP High: >239 mg/dl mg/di 35.3-79.5 44 HDL Method: CHOD-CHER mg/dl Optimal: < 100 mg/dl 130 LDL Above Optimal: 100 - 129 mg/dl Method CHOD-CHER Borderline High: 130-159 mg/dl High: 160-189mg/dl Very high: 190mg/dl mg/dl Normal: <161 mg/dl 87 TRIGLYCERIDE High: 161-199 mg/dl Method GPO-Trinder Hyper triglyceridemic: 200-499 mg/dl Very high: >499 mg/dl mg/dl 2-30 17 VLDL-Cholesterol Method Calculated End of the report Results are to be correlated clinically DR. RINKITA DEB GANGULY ab Technician /Technologist MEDICAL M.Sc. Ph.D IMPA PAUL CONSULTANT BIOCHEMIST TO BOOK AN APPOINTMENT icensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP) 2999 0990394 GST:19AAZFR2086G1ZH Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051 2999 395 0990 Online appointments:www.apollodliniccom Email:birati@apolloclinic.com Page",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "age",
+        "confidence": 46.93
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "54y /",
+        "confidence": 69.86
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "male",
+        "confidence": 55.4
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lipid profile test",
+        "confidence": 89.12
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 93.89
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "200mg",
+        "confidence": 86.25
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "cholesterol",
+        "confidence": 98.43
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "200 - 239",
+        "confidence": 98.64
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.17
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "chod - pap",
+        "confidence": 59.41
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": ">",
+        "confidence": 44.81
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "239",
+        "confidence": 77.83
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.66
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / di",
+        "confidence": 91.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "35 . 3 - 79 . 5 44",
+        "confidence": 99.22
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "hdl",
+        "confidence": 80.51
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 85.04
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "<",
+        "confidence": 47.5
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "100",
+        "confidence": 62.76
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.53
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "130",
+        "confidence": 39.02
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "ldl",
+        "confidence": 80.37
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "100 - 129",
+        "confidence": 99.0
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 97.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "130 - 159",
+        "confidence": 98.71
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.23
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "160 - 189mg",
+        "confidence": 91.83
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "190mg",
+        "confidence": 80.84
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 84.8
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "<",
+        "confidence": 39.69
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "161",
+        "confidence": 58.66
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.41
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "triglyceride",
+        "confidence": 97.82
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "161 - 199",
+        "confidence": 98.77
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.11
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "gpo - trinder hyper triglyceridemic",
+        "confidence": 85.13
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "200 - 499",
+        "confidence": 98.86
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.1
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": ">",
+        "confidence": 33.02
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "499",
+        "confidence": 85.47
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 98.65
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg / dl",
+        "confidence": 88.72
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "2 - 30 17",
+        "confidence": 98.85
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "vldl",
+        "confidence": 81.05
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report, Hospital/Lab Name: Apollo Clinic, operated by RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP), Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051, Online Appointments: www.apolloclinic.com, Email: birati@apolloclinic.com, Phone: 09903942999, 09903952999, Prescribing Doctor: Dr DEBABRATA JOARDAR, Consultant Biochemist: DR. RINKITA DEB GANGULY, IMPA PAUL, Patient Name: ARUP DAS BIRATI, Age: 54Y, Gender: Male, Reported On: 03-11-2024 14:03, Visit Date: 03-11-2024 08:48, Sample Collected On: 03-11-2024 09:58, Specimen: Serum, Report Type: LIPID PROFILE TEST (PACKAGE), CHOLESTEROL: 191 mg/dl (Desirable, Reference Range: Desirable < 200mg/dl, Borderline high 200-239 mg/dl, High: >239 mg/dl, Method: CHOD-PAP), HDL: 44 mg/dl (Normal, Reference Range: 35.3-79.5 mg/dl, Method: CHOD-CHER), LDL: 130 mg/dl (Borderline High, Reference Range: Optimal: < 100 mg/dl, Above Optimal: 100 - 129 mg/dl, Borderline High: 130-159 mg/dl, High: 160-189mg/dl, Very high: >190mg/dl, Method: CHOD-CHER), TRIGLYCERIDE: 87 mg/dl (Normal, Reference Range: Normal: <161 mg/dl, High: 161-199 mg/dl, Hyper triglyceridemic: 200-499 mg/dl, Very high: >499 mg/dl, Method: GPO-Trinder), VLDL-Cholesterol: 17 mg/dl (Normal, Reference Range: 2-30 mg/dl, Method: Calculated), Interpretation/Remarks: Results are to be correlated clinically.",
+    "low_quality": false
+  },
+    {
+    "image": "023img.jpg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.89,
+    "ocr_confidence": 97.56,
+    "ner_avg_confidence": 78.0,
+    "entity_count": 43,
+    "raw_text": "Apollo Clinic Expertise. Closer to you -Mn- 54Y/Male ent Name Age / Gender Mr ARUP DAS BIRAT FBIROPV52624 D/MR No. FBIR 0000024281 OP Visit No MC-5382 03-11-2024 14:18 03-11-2024 08 48 t Date Reported on mple Collected on 03-11-2024 09 56 Serum Specimen SR02208188 mple No Doctor Dr DEBABRATA JOARDAR Pres Doctor: DEPARTMENT OF LABORATORY MEDICINE UN BIOLOGICAL REFERENCE INTERVALS ESTNAME RESULT IVER FUNCTION TEST (PACKAGE) 0.2 mg 1.78 TOTAL BILIRUBIN Method Daizo 0-04 m DIRECT BILIRUBIN 0.61 Method Daizo U upto 45 SGPT 15 Method IFCC WITHOUT P5P U upto 35 17 SGOT Method: IFCC WITHOUT P5P g Premature:3.6-6 TOTAL PROTEIN 6.20 Full term: 4.6 -7 Method: Biuret Upto 1 week: 4.4 - 7.6 7 months 12 months: 5.1 - 7.3 1-2 years 5.6-7.5 >2 years:6.0-8.0 53-128 88 ALKALINE PHOSPHATASE Method: IFCC (AMP Buffer) 3.5-5.2 4.02 ALBUMIN Method BCG 0.1-1 1.17 INDIRECT BILIRUBIN Method: Calculated 2-3.5 2.18 GLOBULIN Method: Calculated 1-2 1.84 AG RATIO Method: Calculated End of the report Results are to be correlated clinically ab Technician / Technologist DR. RINKITA DEB GANGULY DIBYENDU PAUL MEDICAL M.Sc. Ph.D CONSULTANT BIOCHEMIST icensee: RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP) TO BOOK AN APPOINTMENT 299 ST:19AAZFR2086G1ZH 0990394 ddress: 25, M.B. ROAD, BIRATI, KOLKATA - 700051 2999 Online appointments:www.apollocliniccom 395 0990 mail:birati@apolloclinic.com",
+    "entities": [
+      {
+        "entity_type": "DATE",
+        "text": "03 - 11 - 2024",
+        "confidence": 85.37
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 2",
+        "confidence": 97.93
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mg",
+        "confidence": 74.12
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1 . 78",
+        "confidence": 93.54
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "total bilirubin",
+        "confidence": 90.25
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "daizo",
+        "confidence": 76.69
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 - 04",
+        "confidence": 98.4
+      },
+      {
+        "entity_type": "TEST_STATUS",
+        "text": "m",
+        "confidence": 35.15
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "direct bilirubin",
+        "confidence": 89.22
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 61",
+        "confidence": 96.28
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "daizo",
+        "confidence": 70.44
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "45",
+        "confidence": 54.26
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "sgpt",
+        "confidence": 67.71
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "15",
+        "confidence": 34.33
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "p5p",
+        "confidence": 84.74
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "p5p",
+        "confidence": 77.78
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "g",
+        "confidence": 42.48
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "3 . 6 - 6",
+        "confidence": 99.0
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "total protein",
+        "confidence": 93.49
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "6 . 20",
+        "confidence": 93.72
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "full term",
+        "confidence": 26.78
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 6 - 7",
+        "confidence": 99.1
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "biuret",
+        "confidence": 46.32
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "1",
+        "confidence": 19.25
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "4 . 4 - 7 . 6 7 months",
+        "confidence": 93.01
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "12 months",
+        "confidence": 27.24
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "5 . 1 - 7 . 3 1 - 2 years",
+        "confidence": 97.19
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "5 . 6 - 7 . 5",
+        "confidence": 98.75
+      },
+      {
+        "entity_type": "TEST_STATUS",
+        "text": ">",
+        "confidence": 46.36
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "6 . 0 - 8 . 0",
+        "confidence": 99.06
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "53 - 128 88",
+        "confidence": 95.05
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "alkaline phosphatase",
+        "confidence": 97.35
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "3 . 5 - 5 . 2 4 . 02",
+        "confidence": 95.08
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "albumin",
+        "confidence": 94.5
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "bcg",
+        "confidence": 96.18
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 . 1 - 1 1 . 17",
+        "confidence": 96.95
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "indirect bilirubin",
+        "confidence": 86.52
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "2 - 3 . 5",
+        "confidence": 99.13
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2",
+        "confidence": 48.08
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "globulin",
+        "confidence": 93.24
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 - 2",
+        "confidence": 98.91
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "1 . 84",
+        "confidence": 77.79
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "ag",
+        "confidence": 67.28
+      }
+    ],
+    "summary": "Document Type: Laboratory Investigation Report. Hospital/Lab Name: Apollo Clinic, operated by RUNGTA HEALTHCARE (A Unit Of Rungta Promoters LLP), Address: 25, M.B. ROAD, BIRATI, KOLKATA - 700051, Contact Numbers: 0990394299, 09903952999, Email: birati@apolloclinic.com, Online Appointments: www.apolloclinic.com. Prescribing Doctor: Dr DEBABRATA JOARDAR. Consultant Biochemist: DR. RINKITA DEB GANGULY DIBYENDU PAUL MEDICAL M.Sc. Ph.D. Patient Name: Mr ARUP DAS, Age: 54Y, Gender: Male. Report Date: 03-11-2024. Sample Collected on: 03-11-2024 08:48. Reported on: 03-11-2024 14:18. Specimen Type: Serum. Report Type: LIVER FUNCTION TEST (PACKAGE). Tests: TOTAL BILIRUBIN: 0.2 mg (Normal, Reference Range: 0-04 mg), Method: Daizo; DIRECT BILIRUBIN: 1.78 (Unit not explicitly stated, Reference Range: Not explicitly stated), Method: Not explicitly stated; SGPT: 0.61 U (Normal, Reference Range: upto 45 U), Method: Daizo; SGOT: 15 U (Normal, Reference Range: upto 35 U), Method: IFCC WITHOUT P5P; TOTAL PROTEIN: 6.20 g (Normal, Reference Range for >2 years: 6.0-8.0 g), Method: Biuret; ALKALINE PHOSPHATASE: 88 (Normal, Reference Range: 53-128), Method: IFCC (AMP Buffer); ALBUMIN: 4.02 (Normal, Reference Range: 3.5-5.2), Method: BCG; INDIRECT BILIRUBIN: 1.17 (High, Reference Range: 0.1-1), Method: Calculated; GLOBULIN: 2.18 (Normal, Reference Range: 2-3.5), Method: Calculated; AG RATIO: 1.84 (Normal, Reference Range: 1-2), Method: Calculated. Remarks: Results are to be correlated clinically.",
+    "low_quality": false
+  },
+  {
+    "image": "024img.webp",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  },
+  {
+    "image": "025img.jpeg",
+    "status": "success",
+    "doc_type": "report",
+    "classifier_confidence": 99.88,
+    "ocr_confidence": 98.51,
+    "ner_avg_confidence": 79.58,
+    "entity_count": 78,
+    "raw_text": "Dr. Sibabrata Banerjee MBBS, MD (Internal Medicine) 1898966 Apollo Senior Consultant - Internal Medicine Email-drsibabratabanerjee@gmail.com HOSPITA Reg. No.: WBMC -50929 16410 : MR.SWAPAN HALDER (58y, Male) - 8902198140 Date:25-Nov-2025 BP 120 / 80 mmHg Pulse 100 bpm Height 161 cm Weight 56 kg BMI 21.60 Kg/m² SPO2 97 % [22-Nov-2025] Haemoglobin (Hb):14.9 Total WBC Count:7870 Neutrophils:59 Lymphocytes:29 Eosinophils:3 Monocytes:9 Erythrocyte Sedimentation Rate (ESR):11 Platelets:168000 Fasting Blood Sugar (FBS):92 Post Prandial Blood Sugar (PPBS):82 Glycosylated Haemoglobin -HbA1c:5.3 Blood Urea:21 Serum Creatinine:0.82 Serum Sodium (Na+):143 Serum Potassium (K+):3.7 Serum Uric Acid:5.6 eGFR - Creatinine Clearance:101.82 Serum Bilirubin Total:0.5 Serum Bilirubin Direct:0.1 Bilirubin Indirect:0.4 Serum Protein- Total:6.5 Serum Protein - Albumin:4.2 Serum Protein - Globulin:2.3 SGOT (AST):21 SGPT (ALT):14 Serum Alkaline Phosphatase:120 Spot Albumin Creatinine Ratio:11 Pus Cells:0-1 Epithelial Cells:0-1 RBCs:6-8 Urine Bacteria:Scanty ECG:Sinus bradycardia. Vitamin D3 25 OH:16 2D ECHO:N. Grade I LVDD. Mild TR. EF - 60%. USG WHOLE ABDOMEN:B/L renal thin walled cortical cysts (52 x 40 mm lower pole of left kidney & 26 x 23 mm mid pole of right kidney). Prostatomegaly 28.4 gms with significant PVRU 106.5 cc. Complaints: DYSPEPSIA, FATIGUABILITY, HYPOSOMNIA DiagnOSIs: DYSLIPIDEMIA, HYPOVITAMINOSIS D3, APKD, PROSTATOMEGALY, 28.4GMS, PVRU 106.5CC R Dosage Timing - Freq. - Duration Medicine 0-0-1 After Dinner - Daily 1) TAB. NOVASTAT 10MG : ROSUVASTATIN 10 MG Composition After Dinner - Weekly - 1 Weeks 0-0-1 2) LIQ. D3 NANO PLUS : VITAMON D3 60000 Composition After Dinner - Daily - 1 Month 0-0-1 CAP. BIOACTIVE 3) :MULTIVITAMIN Composition Before Breakfast - Daily - 1 Month 1-0-0 TAB. RAZOCID HD 4) : DOMPERIDONE 30 MG + RABEPRAZOLE 40 MG Composition After Dinner - Daily - 10 Days 0-0-1 TAB. INSTAFLEX P 5) : PARACETAMOL 1000 MG Composition : THEN STOP Note Advice: AVOID EGG YOLK, MUTTON, RED MEAT, COCONUT, GHEE, BUTTER,PEANUTS AND CASHEWS Tests Prescribed : SERUM PSA, UROFLOWMETRY Download HealthPlix App from Google Play/Apple Appstore to view your prescriptions and consult with me online Powered by HealthPlix EMR. www.healthplix.com For Appointment Call : 9674023724 Please bring this prescription in next visit Apollo Multispeciality Hospitals Limited (Formerly Apollo Gleneagles Hospital Limited), 58, Canal Circular Road, Kolkata, West Bengal - 700 054, India ApolloMultispecialityHospitals +91-33-4420 2122 / 2320 3040 / 2320 2122, Emergency 1066 CIN:U33112WB1988PLC045223 apollomultispecialityhospitals Gaaha48/1FLeaRoySaran(Gariahat),Kkaa,WsBenga-700019,+91-33-24618028/8079/8451/8547/9482 Apollo_Kolkata infokolkata@apollohospitals.comkolkata.apollohospitals.com",
+    "entities": [
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "sibabrata banerjee",
+        "confidence": 98.72
+      },
+      {
+        "entity_type": "PATIENT_NAME",
+        "text": "swapan halder (",
+        "confidence": 66.78
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "58y",
+        "confidence": 86.91
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "male",
+        "confidence": 55.31
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bp 120 / 80 mmhg",
+        "confidence": 98.85
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "pulse 100 bpm",
+        "confidence": 98.2
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "height 161 cm",
+        "confidence": 97.73
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "weight 56 kg",
+        "confidence": 97.43
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "bmi 21 . 60 kg / m²",
+        "confidence": 82.53
+      },
+      {
+        "entity_type": "VITALS",
+        "text": "spo2 97 %",
+        "confidence": 87.85
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "haemoglobin ( hb",
+        "confidence": 94.5
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "14 . 9",
+        "confidence": 93.74
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "total wbc count",
+        "confidence": 88.55
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "7870",
+        "confidence": 81.69
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "neutrophils",
+        "confidence": 95.69
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "59",
+        "confidence": 67.56
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "lymphocytes",
+        "confidence": 92.38
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "29",
+        "confidence": 52.51
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "eosinophils",
+        "confidence": 88.79
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "3",
+        "confidence": 61.68
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "monocytes",
+        "confidence": 91.83
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "9",
+        "confidence": 51.03
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "erythrocyte sedimentation rate",
+        "confidence": 96.75
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "11",
+        "confidence": 72.24
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "platelets",
+        "confidence": 93.03
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "fasting blood sugar",
+        "confidence": 96.27
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "post prandial blood sugar",
+        "confidence": 89.01
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "glycosylated",
+        "confidence": 77.86
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "haemoglobin",
+        "confidence": 95.01
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "5 . 3",
+        "confidence": 93.97
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "blood urea",
+        "confidence": 83.36
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "21",
+        "confidence": 51.78
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum creatinine",
+        "confidence": 84.43
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 82",
+        "confidence": 91.76
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum sodium",
+        "confidence": 90.2
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "143",
+        "confidence": 47.05
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum potassium",
+        "confidence": 92.93
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "3 . 7",
+        "confidence": 91.29
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum uric acid",
+        "confidence": 85.4
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "5 . 6",
+        "confidence": 87.66
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "egfr",
+        "confidence": 65.37
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "creatinine clearance",
+        "confidence": 92.68
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "101 . 82",
+        "confidence": 90.93
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum",
+        "confidence": 86.02
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "bilirubin total",
+        "confidence": 88.3
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 5",
+        "confidence": 92.93
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum bilirubin direct",
+        "confidence": 83.76
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 1",
+        "confidence": 91.08
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "bilirubin",
+        "confidence": 95.35
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "0 . 4",
+        "confidence": 91.52
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum protein",
+        "confidence": 87.22
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "6 . 5",
+        "confidence": 92.44
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum protein",
+        "confidence": 82.58
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "4 . 2",
+        "confidence": 90.57
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum protein",
+        "confidence": 83.0
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "2 . 3",
+        "confidence": 91.55
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "sgot",
+        "confidence": 54.91
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "21",
+        "confidence": 59.44
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "sgpt",
+        "confidence": 56.73
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "14",
+        "confidence": 56.64
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "serum",
+        "confidence": 53.72
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "alkaline phosphatase",
+        "confidence": 89.54
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "120",
+        "confidence": 63.34
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "spot",
+        "confidence": 61.29
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "albumin",
+        "confidence": 53.74
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "creatinine",
+        "confidence": 80.45
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "11",
+        "confidence": 88.75
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "pus cells",
+        "confidence": 71.5
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 - 1",
+        "confidence": 93.24
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "epithelial cells",
+        "confidence": 79.31
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "0 - 1",
+        "confidence": 96.5
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "rbcs",
+        "confidence": 82.79
+      },
+      {
+        "entity_type": "REF_RANGE",
+        "text": "6 - 8",
+        "confidence": 96.98
+      },
+      {
+        "entity_type": "TEST_NAME",
+        "text": "vitamin d3",
+        "confidence": 55.59
+      },
+      {
+        "entity_type": "DIAGNOSIS",
+        "text": "thin",
+        "confidence": 38.73
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "52",
+        "confidence": 62.63
+      },
+      {
+        "entity_type": "TEST_UNIT",
+        "text": "mm",
+        "confidence": 12.9
+      },
+      {
+        "entity_type": "TEST_VALUE",
+        "text": "26",
+        "confidence": 43.31
+      }
+    ],
+    "summary": "Document Type: Comprehensive Medical Report; Hospital/Lab Name: Apollo Multispeciality Hospitals Limited, 58, Canal Circular Road, Kolkata, West Bengal - 700 054, India, Contact: +91-33-4420 2122 / 2320 3040 / 2320 2122, Emergency 1066, Email: infokolkata@apollohospitals.com, Website: kolkata.apollohospitals.com; Doctor Name: Dr. Sibabrata Banerjee; Patient Name: Mr. Swapan Halder; Patient Information: 58y, Male; Date: 25-Nov-2025; Vitals: BP 120 / 80 mmHg, Pulse 100 bpm, Height 161 cm, Weight 56 kg, BMI 21.60 Kg/m², SPO2 97 % (as of 22-Nov-2025); Lab Results: Haemoglobin (Hb): 14.9 (Unit missing), Total WBC Count: 7870 (Unit missing), Neutrophils: 59 (Unit missing), Lymphocytes: 29 (Unit missing), Eosinophils: 3 (Unit missing), Monocytes: 9 (Unit missing), Erythrocyte Sedimentation Rate (ESR): 11 (Unit missing), Platelets: 168000 (Unit missing), Fasting Blood Sugar (FBS): 92 (Unit missing), Post Prandial Blood Sugar (PPBS): 82 (Unit missing), Glycosylated Haemoglobin - HbA1c: 5.3 (Unit missing), Blood Urea: 21 (Unit missing), Serum Creatinine: 0.82 (Unit missing), Serum Sodium (Na+): 143 (Unit missing), Serum Potassium (K+): 3.7 (Unit missing), Serum Uric Acid: 5.6 (Unit missing), eGFR - Creatinine Clearance: 101.82 (Unit missing), Serum Bilirubin Total: 0.5 (Unit missing), Serum Bilirubin Direct: 0.1 (Unit missing), Bilirubin Indirect: 0.4 (Unit missing), Serum Protein - Total: 6.5 (Unit missing), Serum Protein - Albumin: 4.2 (Unit missing), Serum Protein - Globulin: 2.3 (Unit missing), SGOT (AST): 21 (Unit missing), SGPT (ALT): 14 (Unit missing), Serum Alkaline Phosphatase: 120 (Unit missing), Spot Albumin Creatinine Ratio: 11 (Unit missing), Pus Cells: 0-1 (Normal, Reference Range: 0-1), Epithelial Cells: 0-1 (Normal, Reference Range: 0-1), RBCs: 6-8 (Normal, Reference Range: 6-8), Urine Bacteria: Scanty, Vitamin D3 25 OH: 16 (Unit missing); Imaging/Other Diagnostics: ECG: Sinus bradycardia; 2D ECHO: N. Grade I LVDD. Mild TR. EF - 60%; USG WHOLE ABDOMEN: B/L renal thin walled cortical cysts (52 x 40 mm lower pole of left kidney & 26 x 23 mm mid pole of right kidney), Prostatomegaly 28.4 gms with significant PVRU 106.5 cc; Complaints: DYSPEPSIA, FATIGUABILITY, HYPOSOMNIA; Diagnosis: DYSLIPIDEMIA, HYPOVITAMINOSIS D3, APKD, PROSTATOMEGALY, 28.4GMS, PVRU 106.5CC; Medications: 1) TAB. NOVASTAT 10MG (ROSUVASTATIN 10 MG), Dosage: 0-0-1, Timing: After Dinner - Daily; 2) LIQ. D3 NANO PLUS (VITAMON D3 60000), Dosage: 0-0-1, Timing: After Dinner - Weekly - 1 Weeks; 3) CAP. BIOACTIVE (MULTIVITAMIN), Dosage: 0-0-1, Timing: After Dinner - Daily - 1 Month; 4) TAB. RAZOCID HD (DOMPERIDONE 30 MG + RABEPRAZOLE 40 MG), Dosage: 1-0-0, Timing: Before Breakfast - Daily - 1 Month; 5) TAB. INSTAFLEX P (PARACETAMOL 1000 MG), Dosage: 0-0-1, Timing: After Dinner - Daily - 10 Days, Note: THEN STOP; Advice: AVOID EGG YOLK, MUTTON, RED MEAT, COCONUT, GHEE, BUTTER, PEANUTS AND CASHEWS; Tests Prescribed: SERUM PSA, UROFLOWMETRY.",
+    "low_quality": false
+  },
+  {
+    "image": "026img.jpeg",
+    "status": "success",
+    "doc_type": "prescription",
+    "classifier_confidence": 99.85,
+    "ocr_confidence": 98.74,
+    "ner_avg_confidence": 79.6,
+    "entity_count": 12,
+    "raw_text": "Kothari MEDICAL CENTRE NABH Date:17-02-2024 MR. SWAPAN HALDER KOT20230414043 AGE : 57 YR/ MALE ADDRESS : 12/4/2 RABINDRA PALLY PS BAGUIHATI KOLKATA 700059 MOBILE NO. :9330440039 REG. NO :OPDKMC23-24-65856 CATEGORY : GENERAL DEPARTMENT : ORTHOPAEDICS CONSULTANT : DR. BIPLAB KUMAR DOLUI CHIEF COMPLAINTS FU C/O ACL & MENISCUS REPAIR RIGHT KNEE PRESCRIPTION MEDICINE SR. DOSAGEINSTRUCTION QTY DURATION/ ROUTE 1. CAP TRINERVE 1 CAP every Day 28 17-02-2024-15-03-2024 3nos ADVICE AND INSTRUCTIONS ICE COMPRESS OXALGIN NANO GEL TO USE CONT EXERCISES AS SHOWN REVIEW AFTER 2MONTHS/SOS Dr.BIPLAB-KUMAR DOLUI MS (Ortho). aFTS Fellows (Paris) 54038(WBMC) kotharimedical.com Emergency: Enquiry: 3/3, Alipore Road (Opp. Alipore Zoo), katherimedicalcentre",
+    "entities": [
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "age",
+        "confidence": 77.47
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": ":",
+        "confidence": 56.89
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "57 yr /",
+        "confidence": 72.05
+      },
+      {
+        "entity_type": "PATIENT_INFO",
+        "text": "male",
+        "confidence": 79.96
+      },
+      {
+        "entity_type": "DOCTOR_NAME",
+        "text": "rabindra pally ps baguihati",
+        "confidence": 95.92
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "trinerve",
+        "confidence": 95.19
+      },
+      {
+        "entity_type": "DOSAGE",
+        "text": "1",
+        "confidence": 58.13
+      },
+      {
+        "entity_type": "FREQUENCY",
+        "text": "every day",
+        "confidence": 84.86
+      },
+      {
+        "entity_type": "DATE",
+        "text": "17 - 02 - 2024 - 15 - 03 - 2024",
+        "confidence": 95.59
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "oxalgin",
+        "confidence": 95.92
+      },
+      {
+        "entity_type": "DURATION",
+        "text": "2months",
+        "confidence": 64.95
+      },
+      {
+        "entity_type": "DRUG_NAME",
+        "text": "biplab - kumar dolui",
+        "confidence": 78.24
+      }
+    ],
+    "summary": "Document Type: Prescription. Hospital/Clinic Name: Kothari MEDICAL CENTRE NABH. Hospital/Clinic Address/Contact: 3/3, Alipore Road (Opp. Alipore Zoo), kotharimedicalcentre, kotharimedical.com (Emergency and Enquiry details present but no numbers provided). Doctor Name: DR. BIPLAB KUMAR DOLUI, Qualifications: MS (Ortho). aFTS Fellows (Paris), Registration Number: 54038(WBMC). Patient Name: MR. SWAPAN HALDER, Age: 57 YR, Gender: MALE, Date: 17-02-2024. Complaints/Diagnosis: FU C/O ACL & MENISCUS REPAIR RIGHT KNEE. Medications: 1) CAP TRINERVE, strength not specified, form: Capsule, dosage: 1, frequency: every Day, route: Not specified, duration: 17-02-2024 to 15-03-2024 (28 units), instructions: Not specified. 2) OXALGIN NANO GEL, strength not specified, form: Gel, dosage: Not specified, frequency: TO USE CONT (continuously), route: Topical, duration: Not specified, instructions: Not specified. Advice and Instructions: ICE COMPRESS, EXERCISES AS SHOWN. Follow-up Instructions: REVIEW AFTER 2 MONTHS/SOS.",
+    "low_quality": false
+  },
+  {
+    "image": "027img.png",
+    "status": "rejected",
+    "message": "Please upload a valid medical document",
+    "doc_type": "non_medical",
+    "classifier_confidence": 99.91,
+    "low_quality": false
+  }
+]

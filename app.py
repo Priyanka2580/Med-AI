@@ -1,11 +1,3 @@
-"""
-Cura - Medical document intelligence web app.
-
-Upload a prescription or lab report image and get a clean, patient-friendly
-summary. All document understanding (classification, OCR, NER, abnormality
-detection, Gemini summarization) happens in the existing Phase 3 pipeline --
-this file is presentation only.
-"""
 import json
 import logging
 import os
@@ -32,9 +24,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# ============================================================================
-# CUSTOM CSS -- single block, edit here for any visual changes
-# ============================================================================
+
+# CUSTOM CSS 
+
 FONT_LINKS = """
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,13 +34,6 @@ FONT_LINKS = """
 """
 st.markdown(FONT_LINKS, unsafe_allow_html=True)
 
-# NOTE: this block must start with "<style" as the very first characters of the
-# string. CommonMark treats <script>/<pre>/<style> as a special HTML block that
-# is immune to blank lines -- but only if the block *starts* with that tag. If
-# anything else (like the <link> tags above) precedes <style> in the same
-# st.markdown call, the block type changes and the first blank line inside the
-# CSS terminates raw-HTML parsing early, dumping the rest of the CSS as visible
-# page text.
 CUSTOM_CSS = """
 <style>
 /* palette: #FFFDFB, #FBE7F1, #D7C6FF, #8FA9FF, #2D3A5E -- weighted toward
@@ -599,13 +584,11 @@ details.cura-faq-item[open] .cura-faq-toggle {
 </style>
 """
 st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
-# ============================================================================
-# END CUSTOM CSS
-# ============================================================================
 
-# ---------------------------------------------------------------------------
+# END CUSTOM CSS
+
 # Navbar
-# ---------------------------------------------------------------------------
+
 st.markdown(
     """
     <div class="cura-navbar">
@@ -616,9 +599,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------------------------------------------------------------------------
 # Hero
-# ---------------------------------------------------------------------------
+
 st.markdown(
     """
     <div class="cura-hero">
@@ -634,24 +616,22 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ---------------------------------------------------------------------------
-# Load the Phase 3 pipeline (heavy models load once per server process --
+# Load the Phase 3 pipeline (heavy models load once per server process -
 # Python caches the module after the first import, so reruns are instant)
-# ---------------------------------------------------------------------------
+
 with st.spinner("Warming up Cura (first load only) ..."):
     from pipelines.phase3_pipeline import run_phase3_pipeline
 
-# ---------------------------------------------------------------------------
+
 # Session state
-# ---------------------------------------------------------------------------
+
 if "result" not in st.session_state:
     st.session_state.result = None
 if "analyzed_file_sig" not in st.session_state:
     st.session_state.analyzed_file_sig = None
 
-# ---------------------------------------------------------------------------
 # Upload section
-# ---------------------------------------------------------------------------
+
 with st.container(border=True, key="upload-card"):
     st.markdown(
         """
@@ -681,9 +661,8 @@ with st.container(border=True, key="upload-card"):
         with st.container(key="thumb-wrap"):
             st.image(uploaded_file, width=90)
 
-# ---------------------------------------------------------------------------
 # Privacy disclaimer + consent (must be acknowledged before analyzing)
-# ---------------------------------------------------------------------------
+
 with st.expander("Privacy & disclaimer -- please read", expanded=True):
     st.markdown(
         "- This summary is AI-generated and may contain errors. "
@@ -701,9 +680,8 @@ analyze_clicked = st.button(
     use_container_width=True,
 )
 
-# ---------------------------------------------------------------------------
 # Processing
-# ---------------------------------------------------------------------------
+
 if analyze_clicked and uploaded_file is not None and consent_given:
     tmp_path = None
     try:
@@ -742,12 +720,9 @@ current_sig = (uploaded_file.name, uploaded_file.size) if uploaded_file is not N
 if current_sig != st.session_state.analyzed_file_sig:
     st.session_state.result = None
 
-# ---------------------------------------------------------------------------
-# Gemini summary rendering -- gemini_summarizer_final.py's prompts ask for a
-# structured JSON object (see PRESCRIPTION_PROMPT / REPORT_PROMPT); these
-# helpers turn that JSON into the patient-friendly layout below instead of
-# dumping the raw JSON text.
-# ---------------------------------------------------------------------------
+# Gemini summary rendering 
+# gemini_summarizer_final.py's prompts ask for a structured JSON object 
+
 STATUS_BADGE_COLORS = {
     "NORMAL": ("#1F9D55", "#E3F6EA"),
     "LOW": ("#B7791F", "#FFF3DC"),
@@ -853,13 +828,8 @@ def _render_common_sections(data):
 
 
 def _render_medicine_cards(medicines):
-    """Card list shared by prescription "medicines" and report "mentioned_medicines" --
-    the latter has no dosage/frequency/duration, so the meta line is only rendered
-    when at least one of those is present."""
     for med in medicines:
-        # The prompt now tells Gemini to write "Not specified" per-field rather
-        # than omitting it -- filtered out here since the meta line has no field
-        # labels, so an unlabeled "Not specified" next to real values is confusing.
+       
         meta_bits = [
             b for b in (med.get("dosage"), med.get("frequency"), med.get("duration"))
             if b and b.strip().lower() != "not specified"
@@ -878,12 +848,6 @@ def _render_medicine_cards(medicines):
             if value
         )
         name_html = escape(str(med.get("name") or "Medicine"))
-        # Built as one unbroken line on purpose: when meta_html is "" (no
-        # dosage/frequency/duration, always true for report-mentioned
-        # medicines), a multi-line template would leave that placeholder
-        # alone on its own line -- a blank line, which terminates the raw
-        # HTML block in markdown parsing and dumps everything after it as
-        # literal text instead of rendering it.
         st.markdown(
             f'<div class="cura-medicine-card"><div class="cura-medicine-name">{name_html}</div>'
             f'{meta_html}{detail_rows}</div>',
@@ -983,9 +947,7 @@ def render_report_summary(data):
     _render_common_sections(data)
 
 
-# ---------------------------------------------------------------------------
 # Results
-# ---------------------------------------------------------------------------
 result = st.session_state.result
 
 if result is not None:
@@ -1032,9 +994,8 @@ if result is not None:
             st.markdown("#### Something went wrong")
             st.write("Something went wrong, please try again.")
 
-# ---------------------------------------------------------------------------
 # Features grid
-# ---------------------------------------------------------------------------
+
 st.markdown('<div class="cura-features-title">A complete solution for your medical documents</div>', unsafe_allow_html=True)
 
 FEATURES = [
@@ -1060,9 +1021,8 @@ for i, (num, title, desc) in enumerate(FEATURES):
             unsafe_allow_html=True,
         )
 
-# ---------------------------------------------------------------------------
 # FAQ
-# ---------------------------------------------------------------------------
+
 st.write("")
 st.write("")
 faq_left, faq_right = st.columns([1, 1.4], gap="large")
@@ -1102,9 +1062,8 @@ with faq_right:
         """
     st.markdown(faq_html, unsafe_allow_html=True)
 
-# ---------------------------------------------------------------------------
 # Footer
-# ---------------------------------------------------------------------------
+
 st.markdown(
     """
     <div class="cura-footer-dark">
